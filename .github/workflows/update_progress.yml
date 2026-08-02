@@ -1,0 +1,45 @@
+name: Update Progress README
+
+on:
+  push:
+    paths:
+      - '**.json'
+      - 'update_readme.py'
+      - 'config.json'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run progress calculation script
+        run: python update_readme.py
+
+      - name: Commit text changes to main
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md progress_history.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update progress README" && git push origin HEAD:main)
+
+      - name: Commit SVG to orphan branch
+        run: |
+          if [ -f "progress_chart.svg" ]; then
+            mv progress_chart.svg /tmp/progress_chart.svg
+            git checkout --orphan assets
+            git rm -rf .
+            mv /tmp/progress_chart.svg .
+            git add progress_chart.svg
+            git commit -m "Auto-update SVG chart"
+            git push --force origin assets
+          fi

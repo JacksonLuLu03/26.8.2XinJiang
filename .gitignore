@@ -1,0 +1,20 @@
+# Keep this repository focused on Labelme JSON annotations.
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+
+# Python/cache files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.log

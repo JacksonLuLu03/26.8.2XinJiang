@@ -1,0 +1,28 @@
+{
+  "file_hashes": {
+    "XinJiang-阿克苏市-10-28.json": "5b4000ee42194c23f89ab293065e96f2d72f490041db363e486f56106a240605",
+    "XinJiang-阿克苏市-16-10.json": "52381716fef526815b6a6aa49833178f6bb90f00a03a2eb69366f169e07fd28d",
+    "XinJiang-阿克苏市-21-10.json": "cd377994be3db921925a857c01d235bb4920d815f20a8596712b163b743f52f9",
+    "XinJiang-阿克苏市-21-5.json": "2f07ce86cddc3d3cb84161f0c3bc80348066f79ade20217b450b2d8b2c23e85d",
+    "XinJiang-阿克苏市-21-6.json": "ce5019e21322537e5d42a102bfe6e4e0fd4a7c4c546f44b0d590cbc2d7af4635",
+    "XinJiang-阿克苏市-22-9.json": "67ceb86a89db7ab8b32df18d71af333c921723e3e75fed8961588d00a2b96ec2",
+    "XinJiang-阿克苏市-3-23.json": "bd51ba2ae26f16773b09cb4983ec8cc15e431512e8714a411291d90d4e8d251c",
+    "XinJiang-阿克苏市-5-20.json": "e8b4ef71774a1e6bbb2eedfc8dbbafa166f212a46437802b9fbacbda5b4dd2f1"
+  },
+  "daily_stats": {
+    "2026-08-02": {
+      "total_completed": 8,
+      "new_files": [
+        "XinJiang-阿克苏市-10-28.json",
+        "XinJiang-阿克苏市-16-10.json",
+        "XinJiang-阿克苏市-21-10.json",
+        "XinJiang-阿克苏市-21-5.json",
+        "XinJiang-阿克苏市-21-6.json",
+        "XinJiang-阿克苏市-22-9.json",
+        "XinJiang-阿克苏市-3-23.json",
+        "XinJiang-阿克苏市-5-20.json"
+      ],
+      "strengthened_files": []
+    }
+  }
+}
