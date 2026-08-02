@@ -11,11 +11,12 @@
     "XinJiang-阿克苏市-5-20.json": "e8b4ef71774a1e6bbb2eedfc8dbbafa166f212a46437802b9fbacbda5b4dd2f1",
     "XinJiang-阿瓦提县-3-7.json": "ebb1d20efb3487fdbb6fa7f1d1a916bfa8c55aa36ed894bb9d3e1be6bae2bb49",
     "XinJiang-阿瓦提县-5-3.json": "ec459595ecfba2e515b6c457f83be247a92ce0b56b40e860b3a983f2c3c94cec",
-    "XinJiang-阿瓦提县-5-4.json": "f5c45b8598b30cbc723922bbaf42e62bae94f91e13e39fe556c2857c757cb8c6"
+    "XinJiang-阿瓦提县-5-4.json": "f5c45b8598b30cbc723922bbaf42e62bae94f91e13e39fe556c2857c757cb8c6",
+    "XinJiang-阿瓦提县-5-7.json": "7ad8c33662de8d8301f1a15ce8754956e3ed5c2ce5267aec1a103c038622faf9"
   },
   "daily_stats": {
     "2026-08-02": {
-      "total_completed": 12,
+      "total_completed": 13,
       "new_files": [
         "XinJiang-阿克苏市-10-28.json",
         "XinJiang-阿克苏市-16-10.json",
@@ -28,7 +29,8 @@
         "XinJiang-阿克苏市-5-20.json",
         "XinJiang-阿瓦提县-3-7.json",
         "XinJiang-阿瓦提县-5-3.json",
-        "XinJiang-阿瓦提县-5-4.json"
+        "XinJiang-阿瓦提县-5-4.json",
+        "XinJiang-阿瓦提县-5-7.json"
       ],
       "strengthened_files": []
     }
