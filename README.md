@@ -15,10 +15,10 @@
 ![Progress Badge](https://img.shields.io/badge/Progress-8%20%2F%20412%20(1.9%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
-![标注进度趋势](https://raw.githubusercontent.com/JacksonLuLu03/26.8.2XinJiang/assets/progress_chart.svg?v=1785685175)
+![标注进度趋势](https://raw.githubusercontent.com/JacksonLuLu03/26.8.2XinJiang/main/progress_chart.svg?v=1785685356)
 
 ---
-_最后更新：2026-08-02 23:39:35 (UTC+8)_
+_最后更新：2026-08-02 23:42:36 (UTC+8)_
 
 ### 每日标注聚合日志
 

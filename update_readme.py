@@ -127,7 +127,7 @@ def build_readme(config, history, completed, total_images, now_str):
         f"![Progress Badge](https://img.shields.io/badge/Progress-{completed}%20%2F%20{total_images}%20({pct:.1f}%25)-blue?style=for-the-badge&logo=github)",
         "",
         "### 标注进度趋势折线图",
-        f"![标注进度趋势](https://raw.githubusercontent.com/{owner}/{repo}/assets/progress_chart.svg?v={cache_buster})",
+        f"![标注进度趋势](https://raw.githubusercontent.com/{owner}/{repo}/main/progress_chart.svg?v={cache_buster})",
         "",
         "---",
         f"_最后更新：{now_str} (UTC+8)_",
