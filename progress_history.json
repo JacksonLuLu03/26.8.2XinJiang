@@ -1,10 +1,10 @@
 {
   "file_hashes": {
     "XinJiang-巴楚县-11-32.json": "ec303a8d8634ba5daf831ba2b8c25839750c998f111dd00928fc525073886d4a",
-    "XinJiang-巴楚县-15-27.json": "495e226bbcb692a03ae2ed283eb2080a4c49be8fcb3fa6f48d9ca0a8aaf17440",
-    "XinJiang-巴楚县-15-28.json": "fcaaf647962fe9542c2e31fb838dd6dd5dd6317719b13441adc4d37cf6ae6f4e",
-    "XinJiang-巴楚县-15-29.json": "a0ab4b1fe28fc518c3ab117267f1116c211ceb567b0156e48e73ccc567fcdec0",
-    "XinJiang-巴楚县-16-15.json": "24efac76b049b0c808c17e136d044b10ac3c06164418a3b07100c1c01f0bb0c4",
+    "XinJiang-巴楚县-15-27.json": "e5a09183cf6bc1a9cb4e25b5758e05e37a850b0af389ea867159584055ce1b4d",
+    "XinJiang-巴楚县-15-28.json": "2ea434632678652c35221e2ccb45999d7eba45dc40a8e043886f4c01a9509640",
+    "XinJiang-巴楚县-15-29.json": "2f91be5a7f0fc9e7e47cb7ab46155c3883a9bffb297a099c46cde4eb5ac6888f",
+    "XinJiang-巴楚县-16-15.json": "0744738379ff17817c64c6bd241d2699302b97b52c7cb660a68fed8c5c3b4a39",
     "XinJiang-巴楚县-16-16.json": "819fb2b7d912b960fbb0aa36f31f0e42e758724cf5ab2126f437a759da49e3ce",
     "XinJiang-巴楚县-16-18.json": "fe648dc28f7a0add7cb5d0785f2c4f6ff1181d61b5225fd7d935cb6c9b864547",
     "XinJiang-巴楚县-16-19.json": "4039d5f340ce0c58d34a87987351151736e5e49a2e742f7b0c0306110c734ee9",
@@ -97,6 +97,10 @@
         "XinJiang-阿瓦提县-8-6.json"
       ],
       "strengthened_files": [
+        "XinJiang-巴楚县-15-27.json",
+        "XinJiang-巴楚县-15-28.json",
+        "XinJiang-巴楚县-15-29.json",
+        "XinJiang-巴楚县-16-15.json",
         "XinJiang-巴楚县-22-6.json",
         "XinJiang-巴楚县-5-53.json",
         "XinJiang-阿克苏市-10-28.json",
