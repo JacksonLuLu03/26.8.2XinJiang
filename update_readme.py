@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import datetime
 import hashlib
+import html
 import json
 import os
 import time
@@ -60,17 +61,61 @@ def short_name(filename):
     return os.path.splitext(filename)[0]
 
 
-def build_svg(history, total_images):
-    daily = history.get("daily_stats", {})
-    points = [(day, int(daily[day].get("total_completed", 0))) for day in sorted(daily)]
-    if not points:
-        points = [(beijing_now()[0], 0)]
+def nice_axis_max(value):
+    if value <= 10:
+        return 10
+    if value <= 50:
+        step = 10
+    elif value <= 100:
+        step = 20
+    else:
+        step = 50
+    return ((value + step - 1) // step) * step
 
-    width, height = 860, 320
-    pad_left, pad_right, pad_top, pad_bottom = 70, 30, 35, 55
+
+def snapshot_label(timestamp):
+    parts = timestamp.split(" ")
+    if len(parts) == 2:
+        day = parts[0][5:]
+        hour_minute = ":".join(parts[1].split(":")[:2])
+        return f"{day} {hour_minute}"
+    return timestamp[5:] if len(timestamp) >= 10 else timestamp
+
+
+def chart_points(history):
+    snapshots = history.get("snapshots", [])
+    points = []
+    if isinstance(snapshots, list):
+        for item in snapshots:
+            timestamp = str(item.get("time", ""))
+            try:
+                value = int(item.get("total_completed", 0))
+            except Exception:
+                value = 0
+            if timestamp:
+                points.append((timestamp, value))
+
+    if points:
+        return points[-14:]
+
+    daily = history.get("daily_stats", {})
+    for day in sorted(daily):
+        points.append((day, int(daily[day].get("total_completed", 0))))
+    return points
+
+
+def build_svg(history, total_images):
+    points = chart_points(history)
+    if not points:
+        points = [(beijing_now()[1], 0)]
+
+    width, height = 980, 390
+    pad_left, pad_right, pad_top, pad_bottom = 76, 44, 72, 72
     chart_w = width - pad_left - pad_right
     chart_h = height - pad_top - pad_bottom
-    max_y = max(total_images, max(v for _, v in points), 1)
+    latest = points[-1][1]
+    max_value = max(v for _, v in points)
+    max_y = nice_axis_max(max(max_value + 4, 10))
 
     coords = []
     for i, (_, value) in enumerate(points):
@@ -79,24 +124,57 @@ def build_svg(history, total_images):
         coords.append((x, y))
 
     polyline = " ".join(f"{x:.1f},{y:.1f}" for x, y in coords)
-    circles = "\n".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4" fill="#2563eb" />' for x, y in coords)
-    labels = "\n".join(
-        f'<text x="{x:.1f}" y="{height - 22}" text-anchor="middle" font-size="12" fill="#475569">{day[5:]}</text>'
-        for (day, _), (x, _) in zip(points, coords)
-    )
-    latest = points[-1][1]
+    area_points = f"{pad_left:.1f},{pad_top + chart_h:.1f} {polyline} {pad_left + chart_w:.1f},{pad_top + chart_h:.1f}"
     pct = latest / total_images * 100 if total_images else 0
 
+    grid_lines = []
+    y_labels = []
+    for i in range(5):
+        value = round(max_y * i / 4)
+        y = pad_top + chart_h - (chart_h * value / max_y)
+        grid_lines.append(f'<line x1="{pad_left}" y1="{y:.1f}" x2="{width - pad_right}" y2="{y:.1f}" stroke="#e2e8f0" stroke-width="1" />')
+        y_labels.append(f'<text x="{pad_left - 14}" y="{y + 4:.1f}" text-anchor="end" font-size="12" fill="#64748b">{value}</text>')
+
+    nodes = []
+    x_labels = []
+    for idx, ((timestamp, value), (x, y)) in enumerate(zip(points, coords)):
+        label = html.escape(snapshot_label(timestamp))
+        tag_y = y - 26 if idx % 2 == 0 else y + 35
+        tag_y = max(38, min(height - 98, tag_y))
+        tag_w = 46 if value < 100 else 54
+        nodes.append(f'<line x1="{x:.1f}" y1="{y:.1f}" x2="{x:.1f}" y2="{tag_y:.1f}" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 4" />')
+        nodes.append(f'<rect x="{x - tag_w / 2:.1f}" y="{tag_y - 17:.1f}" width="{tag_w}" height="24" rx="7" fill="#0f172a" />')
+        nodes.append(f'<text x="{x:.1f}" y="{tag_y - 1:.1f}" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">{value}</text>')
+        nodes.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="7" fill="#ffffff" stroke="#2563eb" stroke-width="3" />')
+        nodes.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3" fill="#14b8a6" />')
+        x_labels.append(f'<text x="{x:.1f}" y="{height - 32}" text-anchor="middle" font-size="12" fill="#475569">{label}</text>')
+
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-  <rect width="100%" height="100%" fill="#ffffff"/>
-  <text x="{pad_left}" y="24" font-size="18" font-family="Arial, sans-serif" fill="#0f172a">Labelme 标注进度趋势：{latest}/{total_images} ({pct:.1f}%)</text>
-  <line x1="{pad_left}" y1="{pad_top + chart_h}" x2="{width - pad_right}" y2="{pad_top + chart_h}" stroke="#cbd5e1"/>
-  <line x1="{pad_left}" y1="{pad_top}" x2="{pad_left}" y2="{pad_top + chart_h}" stroke="#cbd5e1"/>
-  <text x="{pad_left - 12}" y="{pad_top + 5}" text-anchor="end" font-size="12" fill="#64748b">{max_y}</text>
-  <text x="{pad_left - 12}" y="{pad_top + chart_h + 4}" text-anchor="end" font-size="12" fill="#64748b">0</text>
-  <polyline points="{polyline}" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-  {circles}
-  {labels}
+  <defs>
+    <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.38" />
+      <stop offset="100%" stop-color="#ccfbf1" stop-opacity="0.05" />
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+  <rect x="18" y="18" width="{width - 36}" height="{height - 36}" rx="14" fill="#ffffff" filter="url(#softShadow)"/>
+  <text x="{pad_left}" y="42" font-size="22" font-weight="800" font-family="Arial, sans-serif" fill="#0f172a">Labelme 标注进度趋势</text>
+  <text x="{pad_left}" y="64" font-size="13" font-family="Arial, sans-serif" fill="#64748b">当前累计 {latest}/{total_images}，完成 {pct:.1f}%。节点标签显示每次同步后的累计标注数。</text>
+  {"".join(grid_lines)}
+  <line x1="{pad_left}" y1="{pad_top + chart_h}" x2="{width - pad_right}" y2="{pad_top + chart_h}" stroke="#94a3b8" stroke-width="1.2"/>
+  <line x1="{pad_left}" y1="{pad_top}" x2="{pad_left}" y2="{pad_top + chart_h}" stroke="#94a3b8" stroke-width="1.2"/>
+  {"".join(y_labels)}
+  <polygon points="{area_points}" fill="url(#areaGradient)" />
+  <polyline points="{polyline}" fill="none" stroke="url(#lineGradient)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  {"".join(nodes)}
+  {"".join(x_labels)}
 </svg>
 '''
     with open(os.path.join(BASE_DIR, "progress_chart.svg"), "w", encoding="utf-8") as f:
@@ -179,6 +257,7 @@ def main():
     history = read_json(os.path.join(BASE_DIR, "progress_history.json"), {"file_hashes": {}, "daily_stats": {}})
     history.setdefault("file_hashes", {})
     history.setdefault("daily_stats", {})
+    history.setdefault("snapshots", [])
 
     current_files = list_label_jsons()
     current_hashes = {f: file_hash(os.path.join(ANNOTATIONS_DIR, f)) for f in current_files}
@@ -191,6 +270,16 @@ def main():
     item["new_files"] = sorted(set(item.get("new_files", []) + new_files))
     item["strengthened_files"] = sorted(set(item.get("strengthened_files", []) + strengthened))
     history["file_hashes"] = current_hashes
+
+    snapshots = history.setdefault("snapshots", [])
+    if not snapshots:
+        for day in sorted(history["daily_stats"]):
+            snapshots.append({
+                "time": day,
+                "total_completed": int(history["daily_stats"][day].get("total_completed", 0)),
+            })
+    if not snapshots or int(snapshots[-1].get("total_completed", -1)) != len(current_files):
+        snapshots.append({"time": now_str, "total_completed": len(current_files)})
 
     write_json(os.path.join(BASE_DIR, "progress_history.json"), history)
     build_svg(history, total_images)
