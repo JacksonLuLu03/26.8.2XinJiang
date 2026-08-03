@@ -41,6 +41,54 @@ function Get-RemoteBlobMap($Owner, $Repo, $Headers) {
     return $map
 }
 
+function Get-GitBlobSha([string]$Path) {
+    $bytes = [System.IO.File]::ReadAllBytes($Path)
+    $prefix = [System.Text.Encoding]::ASCII.GetBytes("blob $($bytes.Length)")
+    $buffer = New-Object byte[] ($prefix.Length + 1 + $bytes.Length)
+    [System.Array]::Copy($prefix, 0, $buffer, 0, $prefix.Length)
+    $buffer[$prefix.Length] = 0
+    [System.Array]::Copy($bytes, 0, $buffer, $prefix.Length + 1, $bytes.Length)
+
+    $sha1 = [System.Security.Cryptography.SHA1]::Create()
+    try {
+        $hash = $sha1.ComputeHash($buffer)
+        return ([System.BitConverter]::ToString($hash) -replace "-", "").ToLowerInvariant()
+    } finally {
+        $sha1.Dispose()
+    }
+}
+
+function Get-TargetFiles([string]$Project) {
+    $fixedFiles = @(
+        ".github/workflows/update_progress.yml",
+        ".gitignore",
+        "README.md",
+        "config.json",
+        "progress_chart.svg",
+        "progress_history.json",
+        "publish_to_github_api.ps1",
+        "sync_from_labelme.ps1",
+        "update_readme.py",
+        "watch_labelme_and_push.ps1"
+    )
+
+    $files = New-Object System.Collections.Generic.List[string]
+    foreach ($path in $fixedFiles) {
+        if (Test-Path -LiteralPath (Join-Path $Project ($path -replace "/", "\"))) {
+            $files.Add($path)
+        }
+    }
+
+    $annotationsDir = Join-Path $Project "annotations"
+    if (Test-Path -LiteralPath $annotationsDir) {
+        Get-ChildItem -LiteralPath $annotationsDir -File -Filter "*.json" |
+            Sort-Object Name |
+            ForEach-Object { $files.Add("annotations/$($_.Name)") }
+    }
+
+    return @($files)
+}
+
 $config = Get-Content -LiteralPath (Join-Path $Project "config.json") -Encoding UTF8 -Raw | ConvertFrom-Json
 $owner = $config.github_owner
 $repo = $config.github_repo
@@ -51,7 +99,7 @@ $headers = @{
     "X-GitHub-Api-Version" = "2022-11-28"
 }
 
-$targetFiles = @(git -C $Project -c core.quotePath=false ls-files | Where-Object { $_.Trim() -ne "" })
+$targetFiles = Get-TargetFiles $Project
 $targetSet = @{}
 foreach ($path in $targetFiles) {
     $targetSet[$path.Replace("\", "/")] = $true
@@ -65,7 +113,7 @@ foreach ($path in $targetFiles) {
     $encodedPath = Encode-Path $path
     $uri = "https://api.github.com/repos/$owner/$repo/contents/$encodedPath"
     $sha = $null
-    $localSha = (git -C $Project hash-object --path=$path -- $local).Trim()
+    $localSha = Get-GitBlobSha $local
 
     if ($remoteMap.ContainsKey($path)) {
         $sha = $remoteMap[$path]
