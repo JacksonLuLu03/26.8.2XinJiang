@@ -42,7 +42,8 @@ while ($true) {
 
     Write-Log "JSON change detected. Syncing..."
     try {
-        powershell -NoProfile -ExecutionPolicy Bypass -File $SyncScript -Source $Source -Project $Project *>> $LogPath
+        & powershell -NoProfile -ExecutionPolicy Bypass -File $SyncScript -Source $Source -Project $Project 2>&1 |
+            ForEach-Object { Write-Log "  $_" }
         $lastState = Get-State
         Write-Log "Sync finished."
     } catch {
