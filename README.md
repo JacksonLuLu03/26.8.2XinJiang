@@ -1,34 +1,42 @@
 # 标注项目进度 (26.8.2XinJiang)
 
 > [!NOTE]
-> 本仓库仅同步 Labelme 标注生成的 JSON 数据。图片总数在 `config.json` 中配置，GitHub Actions 会在每次推送时自动统计 JSON 文件数量并更新此看板。
+> 本仓库按完整交付目录组织：图片放在 `images/`，Labelme 标注 JSON 放在 `annotations/`。图片总数在 `config.json` 中配置，GitHub Actions 会在每次推送时自动统计 `annotations/` 中的 JSON 数量并更新此看板。
 
 ### 标注状态看板
 
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
-| **总图片数 (Total)** | **412** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **15** | `[█░░░░░░░░░░░░░░░░░░░]` 3.6% |
-| **未标记 (Remaining)** | **397** | `[███████████████████░]` 96.4% |
+| **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
+| **已标记 (Completed)** | **39** | `[██░░░░░░░░░░░░░░░░░░]` 9.7% |
+| **未标记 (Remaining)** | **364** | `[██████████████████░░]` 90.3% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-15%20%2F%20412%20(3.6%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-39%20%2F%20403%20(9.7%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
 
 ---
-_最后更新：2026-08-03 00:00:17 (UTC+8)_
+_最后更新：2026-08-03 16:18:20 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-03</b> : 进度 15/412 (3.6%) | 新增 0 | 加强 0</summary>
+<summary><b>2026-08-03</b> : 进度 39/403 (9.7%) | 新增 24 | 加强 15</summary>
+
+**新增文件**
+
+`XinJiang-巴楚县-11-32`, `XinJiang-巴楚县-15-27`, `XinJiang-巴楚县-15-28`, `XinJiang-巴楚县-15-29`, `XinJiang-巴楚县-16-15`, `XinJiang-巴楚县-16-16`, `XinJiang-巴楚县-16-18`, `XinJiang-巴楚县-16-19`, `XinJiang-巴楚县-16-22`, `XinJiang-巴楚县-19-21`, `XinJiang-巴楚县-19-23`, `XinJiang-巴楚县-2-52`, `XinJiang-巴楚县-2-53`, `XinJiang-巴楚县-2-54`, `XinJiang-巴楚县-3-52`, `XinJiang-巴楚县-5-53`, `XinJiang-阿瓦提县-10-11`, `XinJiang-阿瓦提县-13-5`, `XinJiang-阿瓦提县-14-4`, `XinJiang-阿瓦提县-7-3`, `XinJiang-阿瓦提县-7-9`, `XinJiang-阿瓦提县-8-1`, `XinJiang-阿瓦提县-8-2`, `XinJiang-阿瓦提县-8-6`
+
+**加强文件**
+
+`XinJiang-阿克苏市-10-28`, `XinJiang-阿克苏市-16-10`, `XinJiang-阿克苏市-21-10`, `XinJiang-阿克苏市-21-5`, `XinJiang-阿克苏市-21-6`, `XinJiang-阿克苏市-22-9`, `XinJiang-阿克苏市-24-10`, `XinJiang-阿克苏市-3-23`, `XinJiang-阿克苏市-5-20`, `XinJiang-阿瓦提县-3-7`, `XinJiang-阿瓦提县-5-3`, `XinJiang-阿瓦提县-5-4`, `XinJiang-阿瓦提县-5-7`, `XinJiang-阿瓦提县-6-7`, `XinJiang-阿瓦提县-6-8`
 
 </details>
 
 <details>
-<summary><b>2026-08-02</b> : 进度 15/412 (3.6%) | 新增 15 | 加强 0</summary>
+<summary><b>2026-08-02</b> : 进度 15/403 (3.7%) | 新增 15 | 加强 0</summary>
 
 **新增文件**
 
