@@ -17,8 +17,15 @@
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
 
+### 目录结构
+
+- `images/`：本地完整图片文件，用于打包交付；默认不上传到 GitHub。
+- `annotations/`：Labelme JSON 标注文件，GitHub 看板统计这个目录。
+- `sync_from_labelme.ps1`：从 `E:\Labelme\3卢杰` 同步图片和 JSON，并更新看板。
+- `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
+
 ---
-_最后更新：2026-08-03 16:18:20 (UTC+8)_
+_最后更新：2026-08-03 16:27:51 (UTC+8)_
 
 ### 每日标注聚合日志
 
