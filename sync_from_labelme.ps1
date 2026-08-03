@@ -50,6 +50,10 @@ git -C $Project commit -m $message
 
 if (-not $NoPush) {
     git -C $Project push
+    if ($LASTEXITCODE -ne 0) {
+        Write-Warning "git push failed. Falling back to GitHub Contents API."
+        powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $Project "publish_to_github_api.ps1") -Project $Project
+    }
 }
 
 Write-Host "Synced. images=$($images.Count) annotations=$($jsons.Count)"
