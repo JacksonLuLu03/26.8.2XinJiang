@@ -6,6 +6,7 @@ import os
 import time
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ANNOTATIONS_DIR = os.path.join(BASE_DIR, "annotations")
 EXCLUDED_JSON = {"config.json", "progress_history.json"}
 
 
@@ -46,10 +47,12 @@ def progress_bar(value, total, width=20):
 
 
 def list_label_jsons():
+    if not os.path.isdir(ANNOTATIONS_DIR):
+        return []
     return sorted(
         f
-        for f in os.listdir(BASE_DIR)
-        if f.endswith(".json") and f not in EXCLUDED_JSON and os.path.isfile(os.path.join(BASE_DIR, f))
+        for f in os.listdir(ANNOTATIONS_DIR)
+        if f.endswith(".json") and f not in EXCLUDED_JSON and os.path.isfile(os.path.join(ANNOTATIONS_DIR, f))
     )
 
 
@@ -113,7 +116,7 @@ def build_readme(config, history, completed, total_images, now_str):
         f"# {title} ({project})",
         "",
         "> [!NOTE]",
-        "> 本仓库仅同步 Labelme 标注生成的 JSON 数据。图片总数在 `config.json` 中配置，GitHub Actions 会在每次推送时自动统计 JSON 文件数量并更新此看板。",
+        "> 本仓库按完整交付目录组织：图片放在 `images/`，Labelme 标注 JSON 放在 `annotations/`。图片总数在 `config.json` 中配置，GitHub Actions 会在每次推送时自动统计 `annotations/` 中的 JSON 数量并更新此看板。",
         "",
         "### 标注状态看板",
         "",
@@ -171,7 +174,7 @@ def main():
     history.setdefault("daily_stats", {})
 
     current_files = list_label_jsons()
-    current_hashes = {f: file_hash(os.path.join(BASE_DIR, f)) for f in current_files}
+    current_hashes = {f: file_hash(os.path.join(ANNOTATIONS_DIR, f)) for f in current_files}
     old_hashes = history.get("file_hashes", {})
     new_files = [f for f in current_files if f not in old_hashes]
     strengthened = [f for f in current_files if f in old_hashes and old_hashes[f] != current_hashes[f]]
