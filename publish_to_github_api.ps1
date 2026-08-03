@@ -65,7 +65,7 @@ foreach ($path in $targetFiles) {
     $encodedPath = Encode-Path $path
     $uri = "https://api.github.com/repos/$owner/$repo/contents/$encodedPath"
     $sha = $null
-    $localSha = (git -C $Project hash-object -- $local).Trim()
+    $localSha = (git -C $Project hash-object --path=$path -- $local).Trim()
 
     if ($remoteMap.ContainsKey($path)) {
         $sha = $remoteMap[$path]
