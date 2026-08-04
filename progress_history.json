@@ -8,7 +8,7 @@
     "XinJiang-巴楚县-16-16.json": "a7a71bddad113dbea995ff1a4c94e824d40f5a724f1ddcd428132cc2e4b09025",
     "XinJiang-巴楚县-16-18.json": "fe648dc28f7a0add7cb5d0785f2c4f6ff1181d61b5225fd7d935cb6c9b864547",
     "XinJiang-巴楚县-16-19.json": "eb92cc7b3495471e8f63be8aad9a464650ea0fc2c520d9760ac265582410f78a",
-    "XinJiang-巴楚县-16-22.json": "54831c42325c7d3f069f12922d91fb069869b1f807c4dff177dca1fdc9580f48",
+    "XinJiang-巴楚县-16-22.json": "1f186db128f7521f616d117d2efa5fdaf72db692a5bcc29dfa42696eef0d5b1b",
     "XinJiang-巴楚县-19-21.json": "32288a38c2a1aad0eb366a54f3ede3201c250f31ea6e64d0030ac08597041786",
     "XinJiang-巴楚县-19-23.json": "45cd084fa26d13ad0cfb668318a19c58dac511ba6f675008ee2b27cfba045166",
     "XinJiang-巴楚县-2-52.json": "fe3429eec5c1df4838124632ed3e370930dbfb48a108733fec010c706d49b75a",
@@ -49,7 +49,7 @@
     "XinJiang-阿瓦提县-5-3.json": "cf7d233c0f2625ab3b406e038da0e04e83c7da95bba68f327688f9d1de4b0e1f",
     "XinJiang-阿瓦提县-5-4.json": "d4964eedde098fed903be30010d7d6f460202d50cbec64f61a09df21a44ed155",
     "XinJiang-阿瓦提县-5-7.json": "6abd07c4e9d0fff894eaa8a8ec52e769e5d2789b482bee664d0e44021b31c546",
-    "XinJiang-阿瓦提县-6-7.json": "5aed97c6efb440a5065a27271421554b009650d2341e27d0fa85c9f6c90a9f0e",
+    "XinJiang-阿瓦提县-6-7.json": "4e4978b3fcf2e2536645ac736e709fba655911c71cdbf48e3252d1e57c1e47a7",
     "XinJiang-阿瓦提县-6-8.json": "6345e2b224c77d53f10643b0705e9e98b15538ad56c450da1c873ceea0983cb5",
     "XinJiang-阿瓦提县-7-3.json": "047ed3b4119e1a8d9d6558f559100bcc1857a827ebfb029197d11e917ac91d30",
     "XinJiang-阿瓦提县-7-9.json": "8e5e1db7e910ab6881ed31b6e5d133d81a92050537a8609754a9f21eeb093a59",
@@ -160,6 +160,7 @@
         "XinJiang-拜城县-35-45.json"
       ],
       "strengthened_files": [
+        "XinJiang-巴楚县-16-22.json",
         "XinJiang-巴楚县-19-23.json",
         "XinJiang-拜城县-27-2.json",
         "XinJiang-拜城县-35-45.json",
@@ -168,6 +169,7 @@
         "XinJiang-阿克苏市-21-10.json",
         "XinJiang-阿克苏市-21-5.json",
         "XinJiang-阿克苏市-22-9.json",
+        "XinJiang-阿瓦提县-6-7.json",
         "XinJiang-阿瓦提县-6-8.json",
         "XinJiang-阿瓦提县-7-9.json",
         "XinJiang-阿瓦提县-8-1.json",
