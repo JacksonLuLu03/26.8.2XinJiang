@@ -10,7 +10,7 @@
     "XinJiang-巴楚县-16-19.json": "eb92cc7b3495471e8f63be8aad9a464650ea0fc2c520d9760ac265582410f78a",
     "XinJiang-巴楚县-16-22.json": "54831c42325c7d3f069f12922d91fb069869b1f807c4dff177dca1fdc9580f48",
     "XinJiang-巴楚县-19-21.json": "32288a38c2a1aad0eb366a54f3ede3201c250f31ea6e64d0030ac08597041786",
-    "XinJiang-巴楚县-19-23.json": "7c17eff14499651ecf292dc4e68f3a5c33bc547c93015a62f44824408e09b8e4",
+    "XinJiang-巴楚县-19-23.json": "45cd084fa26d13ad0cfb668318a19c58dac511ba6f675008ee2b27cfba045166",
     "XinJiang-巴楚县-2-52.json": "fe3429eec5c1df4838124632ed3e370930dbfb48a108733fec010c706d49b75a",
     "XinJiang-巴楚县-2-53.json": "60fd59e744399e3ca39c543363ee66be5696f02e6e4a545549bc2fb5f698d666",
     "XinJiang-巴楚县-2-54.json": "20f88a4cf8ba8c74b26f0d4e4210f312b352f359508b34324f6080193c8711b2",
@@ -160,6 +160,7 @@
         "XinJiang-拜城县-35-45.json"
       ],
       "strengthened_files": [
+        "XinJiang-巴楚县-19-23.json",
         "XinJiang-拜城县-27-2.json",
         "XinJiang-拜城县-35-45.json"
       ]
