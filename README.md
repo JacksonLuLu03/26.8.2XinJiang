@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **56** | `[███░░░░░░░░░░░░░░░░░]` 13.9% |
-| **未标记 (Remaining)** | **347** | `[█████████████████░░░]` 86.1% |
+| **已标记 (Completed)** | **57** | `[███░░░░░░░░░░░░░░░░░]` 14.1% |
+| **未标记 (Remaining)** | **346** | `[█████████████████░░░]` 85.9% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-56%20%2F%20403%20(13.9%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-57%20%2F%20403%20(14.1%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,20 +25,20 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-04 16:07:07 (UTC+8)_
+_最后更新：2026-08-04 17:04:39 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-04</b> : 进度 56/403 (13.9%) | 新增 13 | 加强 16</summary>
+<summary><b>2026-08-04</b> : 进度 57/403 (14.1%) | 新增 14 | 加强 17</summary>
 
 **新增文件**
 
-`XinJiang-拜城县-15-13`, `XinJiang-拜城县-26-34`, `XinJiang-拜城县-26-35`, `XinJiang-拜城县-26-36`, `XinJiang-拜城县-27-12`, `XinJiang-拜城县-27-13`, `XinJiang-拜城县-27-2`, `XinJiang-拜城县-33-45`, `XinJiang-拜城县-33-7`, `XinJiang-拜城县-34-43`, `XinJiang-拜城县-34-44`, `XinJiang-拜城县-34-45`, `XinJiang-拜城县-35-45`
+`XinJiang-博湖县-1-4`, `XinJiang-拜城县-15-13`, `XinJiang-拜城县-26-34`, `XinJiang-拜城县-26-35`, `XinJiang-拜城县-26-36`, `XinJiang-拜城县-27-12`, `XinJiang-拜城县-27-13`, `XinJiang-拜城县-27-2`, `XinJiang-拜城县-33-45`, `XinJiang-拜城县-33-7`, `XinJiang-拜城县-34-43`, `XinJiang-拜城县-34-44`, `XinJiang-拜城县-34-45`, `XinJiang-拜城县-35-45`
 
 **加强文件**
 
-`XinJiang-巴楚县-16-22`, `XinJiang-巴楚县-19-23`, `XinJiang-拜城县-27-2`, `XinJiang-拜城县-35-45`, `XinJiang-拜城县-9-42`, `XinJiang-拜城县-9-43`, `XinJiang-阿克苏市-10-28`, `XinJiang-阿克苏市-16-10`, `XinJiang-阿克苏市-21-10`, `XinJiang-阿克苏市-21-5`, `XinJiang-阿克苏市-22-9`, `XinJiang-阿瓦提县-6-7`, `XinJiang-阿瓦提县-6-8`, `XinJiang-阿瓦提县-7-9`, `XinJiang-阿瓦提县-8-1`, `XinJiang-阿瓦提县-8-2`
+`XinJiang-巴楚县-16-22`, `XinJiang-巴楚县-19-23`, `XinJiang-拜城县-15-13`, `XinJiang-拜城县-27-2`, `XinJiang-拜城县-35-45`, `XinJiang-拜城县-9-42`, `XinJiang-拜城县-9-43`, `XinJiang-阿克苏市-10-28`, `XinJiang-阿克苏市-16-10`, `XinJiang-阿克苏市-21-10`, `XinJiang-阿克苏市-21-5`, `XinJiang-阿克苏市-22-9`, `XinJiang-阿瓦提县-6-7`, `XinJiang-阿瓦提县-6-8`, `XinJiang-阿瓦提县-7-9`, `XinJiang-阿瓦提县-8-1`, `XinJiang-阿瓦提县-8-2`
 
 </details>
 
