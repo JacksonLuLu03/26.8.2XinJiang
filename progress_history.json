@@ -7,7 +7,8 @@
     "XinJiang-博湖县-6-2.json": "108d0a9dcfe3455070a76c61c848aaac85f767e83c104c467a59e6463b172603",
     "XinJiang-博湖县-6-3.json": "9b2f032ed4df109f1db3a4ff427b72f2b85365b9b3c83c1a0272de271aae2c2e",
     "XinJiang-博湖县-6-4.json": "e0301e7e963d6f0c9211fd62db73a9e8bfc5318412e6d654d2bec063383e027b",
-    "XinJiang-博湖县-6-5.json": "ef74bb704281ae7f047f5cac458c2e70150fdadbbe019361aa4704aab56ec471",
+    "XinJiang-博湖县-6-5.json": "6d0de53dcbd11697279cf2ea7551a14e777ced070be2777957be5d1742a4629d",
+    "XinJiang-博湖县-6-6.json": "e1b6839413b928b20ebacb2cd968e7c2cc6112e6ae07ab98947eb1284e2de620",
     "XinJiang-巴楚县-11-32.json": "ec303a8d8634ba5daf831ba2b8c25839750c998f111dd00928fc525073886d4a",
     "XinJiang-巴楚县-15-27.json": "e5a09183cf6bc1a9cb4e25b5758e05e37a850b0af389ea867159584055ce1b4d",
     "XinJiang-巴楚县-15-28.json": "2ea434632678652c35221e2ccb45999d7eba45dc40a8e043886f4c01a9509640",
@@ -151,7 +152,7 @@
       ]
     },
     "2026-08-04": {
-      "total_completed": 64,
+      "total_completed": 65,
       "new_files": [
         "XinJiang-博湖县-1-4.json",
         "XinJiang-博湖县-1-6.json",
@@ -161,6 +162,7 @@
         "XinJiang-博湖县-6-3.json",
         "XinJiang-博湖县-6-4.json",
         "XinJiang-博湖县-6-5.json",
+        "XinJiang-博湖县-6-6.json",
         "XinJiang-拜城县-15-13.json",
         "XinJiang-拜城县-26-34.json",
         "XinJiang-拜城县-26-35.json",
@@ -176,6 +178,7 @@
         "XinJiang-拜城县-35-45.json"
       ],
       "strengthened_files": [
+        "XinJiang-博湖县-6-5.json",
         "XinJiang-巴楚县-16-22.json",
         "XinJiang-巴楚县-19-23.json",
         "XinJiang-拜城县-15-13.json",
@@ -300,6 +303,10 @@
     {
       "time": "2026-08-04 19:09:39",
       "total_completed": 64
+    },
+    {
+      "time": "2026-08-04 19:13:53",
+      "total_completed": 65
     }
   ]
 }
