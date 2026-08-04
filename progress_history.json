@@ -21,7 +21,7 @@
     "XinJiang-拜城县-26-34.json": "68a7c55f6b3a6e6f4a086f20f2cf8346be4f3739649cae93f34064af64eae823",
     "XinJiang-拜城县-26-35.json": "fbe9a8668432fd85e18520220b973231f489054d58385d46381be1c95547a52a",
     "XinJiang-拜城县-26-36.json": "cdbe64cdcc30a78ceb766bb7a9a2e967bb0fc71b4aa529f233a9c70088b4d927",
-    "XinJiang-拜城县-27-2.json": "1e2117e66a2ca189502789514e53bba6aac7aca60718aefb561f4e4cde2dac36",
+    "XinJiang-拜城县-27-2.json": "a6f70c5defd80d72a778f6d106f1060de97273c986c7349f6912316926103bf8",
     "XinJiang-拜城县-9-42.json": "880cebb96393635578e0c108a4ab7cd29f7db63a993bba0ca39fe36e5faf54a1",
     "XinJiang-拜城县-9-43.json": "f8bb65784ac6b8b68d8e603ee514ae9bd03efeabcdd5a10c4673bc5eef76323d",
     "XinJiang-阿克苏市-10-28.json": "6f09683dd2403e2969a81f1b9347be1f3adc6fb7715bae5dd7bce5bb3806bbc3",
@@ -143,7 +143,9 @@
         "XinJiang-拜城县-26-36.json",
         "XinJiang-拜城县-27-2.json"
       ],
-      "strengthened_files": []
+      "strengthened_files": [
+        "XinJiang-拜城县-27-2.json"
+      ]
     }
   },
   "snapshots": [
