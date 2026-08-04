@@ -1,5 +1,6 @@
 {
   "file_hashes": {
+    "XinJiang-博湖县-1-4.json": "1e0c933fa5adb5591f43ce4b523697d583161a8c9e469f605fdef5988f9c4940",
     "XinJiang-巴楚县-11-32.json": "ec303a8d8634ba5daf831ba2b8c25839750c998f111dd00928fc525073886d4a",
     "XinJiang-巴楚县-15-27.json": "e5a09183cf6bc1a9cb4e25b5758e05e37a850b0af389ea867159584055ce1b4d",
     "XinJiang-巴楚县-15-28.json": "2ea434632678652c35221e2ccb45999d7eba45dc40a8e043886f4c01a9509640",
@@ -17,7 +18,7 @@
     "XinJiang-巴楚县-22-6.json": "bbdc021a368b8ea2c9ed91e04e2072e3bc3f0c247342fb62d133b02cae154cb8",
     "XinJiang-巴楚县-3-52.json": "c232f2fda04db66bfeade8cc3455b3433a07108aecc09fcd0cf1fe7b72c7f8b7",
     "XinJiang-巴楚县-5-53.json": "d679307a2708ee7c35a8eaac94d88c46f872be33099a3b1dbc2610286dfb1c7d",
-    "XinJiang-拜城县-15-13.json": "c448acbed5bf0b4fb885a01c975cf13067fbefe1c29ce77e10bba7081bb0ebed",
+    "XinJiang-拜城县-15-13.json": "26b6243d4d1d37939fafa76154eb3823115dffa846fa0983e62bac065f740c15",
     "XinJiang-拜城县-26-34.json": "68a7c55f6b3a6e6f4a086f20f2cf8346be4f3739649cae93f34064af64eae823",
     "XinJiang-拜城县-26-35.json": "fbe9a8668432fd85e18520220b973231f489054d58385d46381be1c95547a52a",
     "XinJiang-拜城县-26-36.json": "cdbe64cdcc30a78ceb766bb7a9a2e967bb0fc71b4aa529f233a9c70088b4d927",
@@ -143,8 +144,9 @@
       ]
     },
     "2026-08-04": {
-      "total_completed": 56,
+      "total_completed": 57,
       "new_files": [
+        "XinJiang-博湖县-1-4.json",
         "XinJiang-拜城县-15-13.json",
         "XinJiang-拜城县-26-34.json",
         "XinJiang-拜城县-26-35.json",
@@ -162,6 +164,7 @@
       "strengthened_files": [
         "XinJiang-巴楚县-16-22.json",
         "XinJiang-巴楚县-19-23.json",
+        "XinJiang-拜城县-15-13.json",
         "XinJiang-拜城县-27-2.json",
         "XinJiang-拜城县-35-45.json",
         "XinJiang-拜城县-9-42.json",
@@ -251,6 +254,10 @@
     {
       "time": "2026-08-04 14:48:21",
       "total_completed": 56
+    },
+    {
+      "time": "2026-08-04 17:04:39",
+      "total_completed": 57
     }
   ]
 }
