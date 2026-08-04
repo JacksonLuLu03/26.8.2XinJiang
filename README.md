@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **49** | `[██░░░░░░░░░░░░░░░░░░]` 12.2% |
-| **未标记 (Remaining)** | **354** | `[██████████████████░░]` 87.8% |
+| **已标记 (Completed)** | **50** | `[██░░░░░░░░░░░░░░░░░░]` 12.4% |
+| **未标记 (Remaining)** | **353** | `[██████████████████░░]` 87.6% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-49%20%2F%20403%20(12.2%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-50%20%2F%20403%20(12.4%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-04 12:46:49 (UTC+8)_
+_最后更新：2026-08-04 12:48:59 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-04</b> : 进度 49/403 (12.2%) | 新增 6 | 加强 1</summary>
+<summary><b>2026-08-04</b> : 进度 50/403 (12.4%) | 新增 7 | 加强 1</summary>
 
 **新增文件**
 
-`XinJiang-拜城县-15-13`, `XinJiang-拜城县-26-34`, `XinJiang-拜城县-26-35`, `XinJiang-拜城县-26-36`, `XinJiang-拜城县-27-12`, `XinJiang-拜城县-27-2`
+`XinJiang-拜城县-15-13`, `XinJiang-拜城县-26-34`, `XinJiang-拜城县-26-35`, `XinJiang-拜城县-26-36`, `XinJiang-拜城县-27-12`, `XinJiang-拜城县-27-13`, `XinJiang-拜城县-27-2`
 
 **加强文件**
 
