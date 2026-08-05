@@ -4,13 +4,35 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+function Resolve-Git {
+    $command = Get-Command git -ErrorAction SilentlyContinue
+    if ($command) {
+        return $command.Source
+    }
+
+    $candidates = @(
+        "C:\Users\Administrator\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.exe",
+        "C:\Program Files\Git\cmd\git.exe",
+        "C:\Program Files\Git\bin\git.exe",
+        "$env:LOCALAPPDATA\Programs\Git\cmd\git.exe"
+    )
+
+    foreach ($candidate in $candidates) {
+        if (Test-Path -LiteralPath $candidate) {
+            return $candidate
+        }
+    }
+
+    throw "Cannot find git.exe. Install Git for Windows or add git to PATH."
+}
+
 function Encode-Path([string]$Path) {
     return (($Path -split "/") | ForEach-Object { [System.Uri]::EscapeDataString($_) }) -join "/"
 }
 
-function Get-GitHubCredentialToken {
+function Get-GitHubCredentialToken([string]$Git) {
     $credentialInput = "protocol=https`nhost=github.com`n`n"
-    $credentialOutput = $credentialInput | git credential fill
+    $credentialOutput = $credentialInput | & $Git credential fill
     $credentialMap = @{}
 
     $credentialOutput -split "`n" | ForEach-Object {
@@ -92,7 +114,8 @@ function Get-TargetFiles([string]$Project) {
 $config = Get-Content -LiteralPath (Join-Path $Project "config.json") -Encoding UTF8 -Raw | ConvertFrom-Json
 $owner = $config.github_owner
 $repo = $config.github_repo
-$token = Get-GitHubCredentialToken
+$Git = Resolve-Git
+$token = Get-GitHubCredentialToken $Git
 $headers = @{
     Authorization = "Bearer $token"
     Accept = "application/vnd.github+json"
