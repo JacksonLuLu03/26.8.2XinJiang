@@ -1,5 +1,7 @@
 {
   "file_hashes": {
+    "XinJiang-伽师县-1-15.json": "4990afa4b890648c3a77af5d0207d2e9227b9d44af46d04891b92e7ecbf335f9",
+    "XinJiang-伽师县-1-16.json": "45488cb02e8d4f64fe03e95b0dd728bfd380e344e231cab2af23fc27eaeb5f9d",
     "XinJiang-博湖县-1-4.json": "1e0c933fa5adb5591f43ce4b523697d583161a8c9e469f605fdef5988f9c4940",
     "XinJiang-博湖县-1-6.json": "0061a63850e508a6fb43456a3df50002cec45f0f75fb3970521bb213b574882c",
     "XinJiang-博湖县-3-3.json": "ea3be68fb05f4a009bdcb578673b7f133a0064af3040b304f63addad98fc503b",
@@ -228,8 +230,10 @@
       ]
     },
     "2026-08-05": {
-      "total_completed": 86,
+      "total_completed": 88,
       "new_files": [
+        "XinJiang-伽师县-1-15.json",
+        "XinJiang-伽师县-1-16.json",
         "XinJiang-昌吉市-12-7.json",
         "XinJiang-昌吉市-13-1.json",
         "XinJiang-昌吉市-13-13.json",
@@ -385,6 +389,10 @@
     {
       "time": "2026-08-05 12:37:21",
       "total_completed": 86
+    },
+    {
+      "time": "2026-08-05 12:42:20",
+      "total_completed": 88
     }
   ]
 }
