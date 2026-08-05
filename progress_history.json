@@ -10,9 +10,9 @@
     "XinJiang-伽师县-15-15.json": "d46c0ebe4ce2e9c3e6c6281497a44968d217fade6234479819466c8143469224",
     "XinJiang-伽师县-15-16.json": "ecdb2562f550a79d182196837668498da960d06aaf663aa3c59b164c681ce222",
     "XinJiang-伽师县-2-14.json": "e65efad71483f78920df9539acda6e3e84f1b615ff87455626b74a2a32eea957",
-    "XinJiang-伽师县-2-39.json": "43d2c0401eecb09374dfce0e9a2ede933fe4e9e1b8c7d83fdc92f843ed54ce72",
-    "XinJiang-伽师县-3-39.json": "221810b0c9386c25137fdfdb196e2ab5ddf342a0d3076daf12a31ef4db4a4525",
-    "XinJiang-伽师县-3-40.json": "186c390fd941d4e46d36abf8e0d65d630a79d107aa7d1dd7c17f073848bc99d8",
+    "XinJiang-伽师县-2-39.json": "e5d04a9b23446aadd2bcf2428817a53458a7b0c5086f8290ee964025b36f3bea",
+    "XinJiang-伽师县-3-39.json": "2cf264edc36b38a6e58054ad1c44c38ba54ab6e409bfd0f3159e0c1b65b987bd",
+    "XinJiang-伽师县-3-40.json": "ebd07939804e729a1f30d21b491ace55dc0b7303419febbfe210c3a9dc17a842",
     "XinJiang-伽师县-6-18.json": "3cda2f9ca65c342180f529d6dcad8d24fca55ff34aabb3f31c063bb13565d632",
     "XinJiang-博湖县-1-4.json": "1e0c933fa5adb5591f43ce4b523697d583161a8c9e469f605fdef5988f9c4940",
     "XinJiang-博湖县-1-6.json": "0061a63850e508a6fb43456a3df50002cec45f0f75fb3970521bb213b574882c",
@@ -42,7 +42,7 @@
     "XinJiang-巴楚县-19-23.json": "45cd084fa26d13ad0cfb668318a19c58dac511ba6f675008ee2b27cfba045166",
     "XinJiang-巴楚县-2-52.json": "fe3429eec5c1df4838124632ed3e370930dbfb48a108733fec010c706d49b75a",
     "XinJiang-巴楚县-2-53.json": "60fd59e744399e3ca39c543363ee66be5696f02e6e4a545549bc2fb5f698d666",
-    "XinJiang-巴楚县-2-54.json": "20f88a4cf8ba8c74b26f0d4e4210f312b352f359508b34324f6080193c8711b2",
+    "XinJiang-巴楚县-2-54.json": "01d401abdab6aad0db07c8fa7f67c24801b8b4ddf3dcbce6960048c76f330859",
     "XinJiang-巴楚县-22-6.json": "bbdc021a368b8ea2c9ed91e04e2072e3bc3f0c247342fb62d133b02cae154cb8",
     "XinJiang-巴楚县-3-52.json": "c232f2fda04db66bfeade8cc3455b3433a07108aecc09fcd0cf1fe7b72c7f8b7",
     "XinJiang-巴楚县-5-53.json": "d679307a2708ee7c35a8eaac94d88c46f872be33099a3b1dbc2610286dfb1c7d",
@@ -278,8 +278,12 @@
         "XinJiang-伽师县-1-16.json",
         "XinJiang-伽师县-1-17.json",
         "XinJiang-伽师县-2-14.json",
+        "XinJiang-伽师县-2-39.json",
+        "XinJiang-伽师县-3-39.json",
+        "XinJiang-伽师县-3-40.json",
         "XinJiang-伽师县-6-18.json",
-        "XinJiang-巴楚县-15-27.json"
+        "XinJiang-巴楚县-15-27.json",
+        "XinJiang-巴楚县-2-54.json"
       ]
     }
   },
