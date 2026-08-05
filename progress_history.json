@@ -2,7 +2,7 @@
   "file_hashes": {
     "XinJiang-伽师县-1-15.json": "4990afa4b890648c3a77af5d0207d2e9227b9d44af46d04891b92e7ecbf335f9",
     "XinJiang-伽师县-1-16.json": "15c73a90a72a67398ac3db9fb2ba0e4751ff2151c48c04dbbf952370e35c5b7b",
-    "XinJiang-伽师县-1-17.json": "a473dfa723b21f86b4f3507e6202f46f87b70f9ea5ed384e3db5bf836e18d847",
+    "XinJiang-伽师县-1-17.json": "7b3ff5b32773881c074999290416b9eb57cd9a89bebe0c39696576acc53723a7",
     "XinJiang-博湖县-1-4.json": "1e0c933fa5adb5591f43ce4b523697d583161a8c9e469f605fdef5988f9c4940",
     "XinJiang-博湖县-1-6.json": "0061a63850e508a6fb43456a3df50002cec45f0f75fb3970521bb213b574882c",
     "XinJiang-博湖县-3-3.json": "ea3be68fb05f4a009bdcb578673b7f133a0064af3040b304f63addad98fc503b",
@@ -253,7 +253,8 @@
         "XinJiang-昌吉市-6-15.json"
       ],
       "strengthened_files": [
-        "XinJiang-伽师县-1-16.json"
+        "XinJiang-伽师县-1-16.json",
+        "XinJiang-伽师县-1-17.json"
       ]
     }
   },
