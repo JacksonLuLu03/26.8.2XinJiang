@@ -4,6 +4,7 @@
     "XinJiang-伽师县-1-16.json": "15c73a90a72a67398ac3db9fb2ba0e4751ff2151c48c04dbbf952370e35c5b7b",
     "XinJiang-伽师县-1-17.json": "7b3ff5b32773881c074999290416b9eb57cd9a89bebe0c39696576acc53723a7",
     "XinJiang-伽师县-1-18.json": "6d4f1ca5a3e437a1b0f838209b6913b7fa05b07664881f587453db0291a26823",
+    "XinJiang-伽师县-2-14.json": "691bfd81e09e9d5dd7afe3f5a86b178b6786f08bf88a625ab0ca9536e1a180e1",
     "XinJiang-博湖县-1-4.json": "1e0c933fa5adb5591f43ce4b523697d583161a8c9e469f605fdef5988f9c4940",
     "XinJiang-博湖县-1-6.json": "0061a63850e508a6fb43456a3df50002cec45f0f75fb3970521bb213b574882c",
     "XinJiang-博湖县-3-3.json": "ea3be68fb05f4a009bdcb578673b7f133a0064af3040b304f63addad98fc503b",
@@ -232,12 +233,13 @@
       ]
     },
     "2026-08-05": {
-      "total_completed": 90,
+      "total_completed": 91,
       "new_files": [
         "XinJiang-伽师县-1-15.json",
         "XinJiang-伽师县-1-16.json",
         "XinJiang-伽师县-1-17.json",
         "XinJiang-伽师县-1-18.json",
+        "XinJiang-伽师县-2-14.json",
         "XinJiang-昌吉市-12-7.json",
         "XinJiang-昌吉市-13-1.json",
         "XinJiang-昌吉市-13-13.json",
@@ -408,6 +410,10 @@
     {
       "time": "2026-08-05 12:53:18",
       "total_completed": 90
+    },
+    {
+      "time": "2026-08-05 12:57:52",
+      "total_completed": 91
     }
   ]
 }
