@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **102** | `[█████░░░░░░░░░░░░░░░]` 25.3% |
-| **未标记 (Remaining)** | **301** | `[███████████████░░░░░]` 74.7% |
+| **已标记 (Completed)** | **103** | `[█████░░░░░░░░░░░░░░░]` 25.6% |
+| **未标记 (Remaining)** | **300** | `[███████████████░░░░░]` 74.4% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-102%20%2F%20403%20(25.3%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-103%20%2F%20403%20(25.6%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-05 16:06:41 (UTC+8)_
+_最后更新：2026-08-05 16:09:53 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-05</b> : 进度 102/403 (25.3%) | 新增 31 | 加强 9</summary>
+<summary><b>2026-08-05</b> : 进度 103/403 (25.6%) | 新增 32 | 加强 9</summary>
 
 **新增文件**
 
-`XinJiang-伽师县-1-15`, `XinJiang-伽师县-1-16`, `XinJiang-伽师县-1-17`, `XinJiang-伽师县-1-18`, `XinJiang-伽师县-14-19`, `XinJiang-伽师县-14-20`, `XinJiang-伽师县-14-21`, `XinJiang-伽师县-15-15`, `XinJiang-伽师县-15-16`, `XinJiang-伽师县-2-14`, `XinJiang-伽师县-2-39`, `XinJiang-伽师县-3-39`, `XinJiang-伽师县-3-40`, `XinJiang-伽师县-3-41`, `XinJiang-伽师县-6-18`, `XinJiang-和静县-6-30`, `XinJiang-昌吉市-12-7`, `XinJiang-昌吉市-13-1`, `XinJiang-昌吉市-13-13`, `XinJiang-昌吉市-13-14`, `XinJiang-昌吉市-13-2`, `XinJiang-昌吉市-13-3`, `XinJiang-昌吉市-13-4`, `XinJiang-昌吉市-14-4`, `XinJiang-昌吉市-4-15`, `XinJiang-昌吉市-5-13`, `XinJiang-昌吉市-5-14`, `XinJiang-昌吉市-5-8`, `XinJiang-昌吉市-5-9`, `XinJiang-昌吉市-6-12`, `XinJiang-昌吉市-6-15`
+`XinJiang-伽师县-1-15`, `XinJiang-伽师县-1-16`, `XinJiang-伽师县-1-17`, `XinJiang-伽师县-1-18`, `XinJiang-伽师县-14-19`, `XinJiang-伽师县-14-20`, `XinJiang-伽师县-14-21`, `XinJiang-伽师县-15-15`, `XinJiang-伽师县-15-16`, `XinJiang-伽师县-2-14`, `XinJiang-伽师县-2-39`, `XinJiang-伽师县-3-39`, `XinJiang-伽师县-3-40`, `XinJiang-伽师县-3-41`, `XinJiang-伽师县-6-18`, `XinJiang-和静县-6-30`, `XinJiang-和静县-7-1`, `XinJiang-昌吉市-12-7`, `XinJiang-昌吉市-13-1`, `XinJiang-昌吉市-13-13`, `XinJiang-昌吉市-13-14`, `XinJiang-昌吉市-13-2`, `XinJiang-昌吉市-13-3`, `XinJiang-昌吉市-13-4`, `XinJiang-昌吉市-14-4`, `XinJiang-昌吉市-4-15`, `XinJiang-昌吉市-5-13`, `XinJiang-昌吉市-5-14`, `XinJiang-昌吉市-5-8`, `XinJiang-昌吉市-5-9`, `XinJiang-昌吉市-6-12`, `XinJiang-昌吉市-6-15`
 
 **加强文件**
 
