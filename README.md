@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **123** | `[██████░░░░░░░░░░░░░░]` 30.5% |
-| **未标记 (Remaining)** | **280** | `[██████████████░░░░░░]` 69.5% |
+| **已标记 (Completed)** | **124** | `[██████░░░░░░░░░░░░░░]` 30.8% |
+| **未标记 (Remaining)** | **279** | `[██████████████░░░░░░]` 69.2% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-123%20%2F%20403%20(30.5%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-124%20%2F%20403%20(30.8%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-06 22:13:15 (UTC+8)_
+_最后更新：2026-08-06 22:13:45 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-06</b> : 进度 123/403 (30.5%) | 新增 19 | 加强 1</summary>
+<summary><b>2026-08-06</b> : 进度 124/403 (30.8%) | 新增 20 | 加强 1</summary>
 
 **新增文件**
 
-`XinJiang-和硕县-3-22`, `XinJiang-和硕县-5-16`, `XinJiang-和静县-10-20`, `XinJiang-和静县-10-5`, `XinJiang-和静县-13-37`, `XinJiang-和静县-14-14`, `XinJiang-和静县-14-42`, `XinJiang-和静县-18-23`, `XinJiang-和静县-18-24`, `XinJiang-和静县-18-27`, `XinJiang-和静县-54-55`, `XinJiang-和静县-55-53`, `XinJiang-和静县-55-54`, `XinJiang-和静县-55-56`, `XinJiang-和静县-56-53`, `XinJiang-和静县-56-54`, `XinJiang-库车县-17-40`, `XinJiang-库车县-33-30`, `XinJiang-库车县-9-44`
+`XinJiang-和硕县-3-22`, `XinJiang-和硕县-5-16`, `XinJiang-和静县-10-20`, `XinJiang-和静县-10-5`, `XinJiang-和静县-13-37`, `XinJiang-和静县-14-14`, `XinJiang-和静县-14-42`, `XinJiang-和静县-18-23`, `XinJiang-和静县-18-24`, `XinJiang-和静县-18-27`, `XinJiang-和静县-54-55`, `XinJiang-和静县-55-53`, `XinJiang-和静县-55-54`, `XinJiang-和静县-55-56`, `XinJiang-和静县-56-53`, `XinJiang-和静县-56-54`, `XinJiang-库车县-17-40`, `XinJiang-库车县-33-30`, `XinJiang-库车县-9-44`, `XinJiang-精河县-14-18`
 
 **加强文件**
 
