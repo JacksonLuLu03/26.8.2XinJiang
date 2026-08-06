@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **104** | `[█████░░░░░░░░░░░░░░░]` 25.8% |
-| **未标记 (Remaining)** | **299** | `[███████████████░░░░░]` 74.2% |
+| **已标记 (Completed)** | **118** | `[██████░░░░░░░░░░░░░░]` 29.3% |
+| **未标记 (Remaining)** | **285** | `[██████████████░░░░░░]` 70.7% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-104%20%2F%20403%20(25.8%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-118%20%2F%20403%20(29.3%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,11 +25,24 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-05 16:11:13 (UTC+8)_
+_最后更新：2026-08-06 15:40:53 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
+<summary><b>2026-08-06</b> : 进度 118/403 (29.3%) | 新增 14 | 加强 1</summary>
+
+**新增文件**
+
+`XinJiang-和静县-10-20`, `XinJiang-和静县-10-5`, `XinJiang-和静县-13-37`, `XinJiang-和静县-14-14`, `XinJiang-和静县-14-42`, `XinJiang-和静县-18-23`, `XinJiang-和静县-18-24`, `XinJiang-和静县-18-27`, `XinJiang-和静县-54-55`, `XinJiang-和静县-55-53`, `XinJiang-和静县-55-54`, `XinJiang-和静县-55-56`, `XinJiang-和静县-56-53`, `XinJiang-和静县-56-54`
+
+**加强文件**
+
+`XinJiang-和静县-18-27`
+
+</details>
+
+<details>
 <summary><b>2026-08-05</b> : 进度 104/403 (25.8%) | 新增 33 | 加强 9</summary>
 
 **新增文件**
