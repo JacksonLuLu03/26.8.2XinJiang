@@ -30,6 +30,7 @@
     "XinJiang-博湖县-7-4.json": "f9c6333aff16cacfc04c747cd091c49d0fab1937ba9403f235024436acfa595e",
     "XinJiang-博湖县-7-5.json": "67ca5dddc8f8361abdc6a3edd6896609ddb537e1ee003ed2fc2d660b56aae69c",
     "XinJiang-博湖县-8-5.json": "d06ecc9cf0b09ea1d68c2197053d1a31020a44b89d0e14799192046010f3bf9f",
+    "XinJiang-和硕县-3-22.json": "116dc43e6876ae59d369d2a18fb047ecfa04ad97830c88b87b3c71ab56403dc2",
     "XinJiang-和硕县-5-16.json": "dc29be572701ca7873f7f57f1e186cfbc6703e955e6c9d2245c8fe7ba50f6ef6",
     "XinJiang-和静县-10-20.json": "923b9af3d20bbcbc5cd6ef8eae2c1cedb94102adfb8d1153108dc2cce2cef4b3",
     "XinJiang-和静县-10-5.json": "3be7f49a8ec354b24031d3a5721166c6dec03b872115aa103ed11786779244b5",
@@ -310,8 +311,9 @@
       ]
     },
     "2026-08-06": {
-      "total_completed": 119,
+      "total_completed": 120,
       "new_files": [
+        "XinJiang-和硕县-3-22.json",
         "XinJiang-和硕县-5-16.json",
         "XinJiang-和静县-10-20.json",
         "XinJiang-和静县-10-5.json",
@@ -589,6 +591,10 @@
     {
       "time": "2026-08-06 16:24:17",
       "total_completed": 119
+    },
+    {
+      "time": "2026-08-06 16:25:32",
+      "total_completed": 120
     }
   ]
 }
