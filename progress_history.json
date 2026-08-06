@@ -43,6 +43,7 @@
     "XinJiang-和静县-55-54.json": "859b49255ab27df7241c3a1dfbff872dd21f061b1a414e4eba9dce80a0b0ed71",
     "XinJiang-和静县-55-56.json": "7896705a3d494f511d0d7ac3e350424bc9454b6c0f97a469d5b0affe69fcfcfb",
     "XinJiang-和静县-56-53.json": "7ea50ef3003254784f8673b070630e609695579d78197ce7423c688c488cc1e0",
+    "XinJiang-和静县-56-54.json": "ab89c7d02b5a50067ef07dc689a003027c1e0d3d6b80fc8bc59ded169a5fa09b",
     "XinJiang-和静县-6-30.json": "28179feaa9769505b47815ed86e4ae063575781e2d9168f2260c79d1a5290c23",
     "XinJiang-和静县-7-1.json": "fc7170f116f749ea262d1bc614d6534bda88a0293083523920709c92c5c374ff",
     "XinJiang-和静县-7-2.json": "be7277c04ee46f868841e0f6a20163323f3c1e016b175ccdb1e6460c8dd4dff0",
@@ -308,7 +309,7 @@
       ]
     },
     "2026-08-06": {
-      "total_completed": 117,
+      "total_completed": 118,
       "new_files": [
         "XinJiang-和静县-10-20.json",
         "XinJiang-和静县-10-5.json",
@@ -582,14 +583,6 @@
     {
       "time": "2026-08-06 13:16:44",
       "total_completed": 118
-    },
-    {
-      "time": "2026-08-06 15:42:12",
-      "total_completed": 116
-    },
-    {
-      "time": "2026-08-06 15:42:28",
-      "total_completed": 117
     }
   ]
 }
