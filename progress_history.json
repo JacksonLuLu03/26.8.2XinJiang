@@ -30,6 +30,20 @@
     "XinJiang-博湖县-7-4.json": "f9c6333aff16cacfc04c747cd091c49d0fab1937ba9403f235024436acfa595e",
     "XinJiang-博湖县-7-5.json": "67ca5dddc8f8361abdc6a3edd6896609ddb537e1ee003ed2fc2d660b56aae69c",
     "XinJiang-博湖县-8-5.json": "d06ecc9cf0b09ea1d68c2197053d1a31020a44b89d0e14799192046010f3bf9f",
+    "XinJiang-和静县-10-20.json": "923b9af3d20bbcbc5cd6ef8eae2c1cedb94102adfb8d1153108dc2cce2cef4b3",
+    "XinJiang-和静县-10-5.json": "3be7f49a8ec354b24031d3a5721166c6dec03b872115aa103ed11786779244b5",
+    "XinJiang-和静县-13-37.json": "0e7e161495d8dbc6684651937f6b61b47f815819539a5da1788c687964e92b8d",
+    "XinJiang-和静县-14-14.json": "a812758d30a3df1c6d6bc07b90357829f254c51097ecbecf6a1ded9b9fa8c760",
+    "XinJiang-和静县-14-42.json": "1d3a29913d25a37dbe7f574e12a45b6ee7df1d6787eb9ee571ec02f6858560c2",
+    "XinJiang-和静县-18-23.json": "c95f63e3160bd1d5108e8f169dcf016a70712e7f64b0800bdefe3a7289faa6c1",
+    "XinJiang-和静县-18-24.json": "f4f76f2a5111577ec4fb9627c6f809ad3a4c32578ffb50e60aea4b12c58d1006",
+    "XinJiang-和静县-18-27.json": "383e05e428cd078044c7994bb6b1589cc5f0d8e55eb274a1de8563c8ea740219",
+    "XinJiang-和静县-54-55.json": "14185ae836738753d55377fa95556cc0ad9ef3793d7d3319dd80195fa6d1f841",
+    "XinJiang-和静县-55-53.json": "e66334345814159b8bcb8c9ad2afd547cb9a4b2366828bcc4f02045e8ecc0a2b",
+    "XinJiang-和静县-55-54.json": "859b49255ab27df7241c3a1dfbff872dd21f061b1a414e4eba9dce80a0b0ed71",
+    "XinJiang-和静县-55-56.json": "7896705a3d494f511d0d7ac3e350424bc9454b6c0f97a469d5b0affe69fcfcfb",
+    "XinJiang-和静县-56-53.json": "7ea50ef3003254784f8673b070630e609695579d78197ce7423c688c488cc1e0",
+    "XinJiang-和静县-56-54.json": "ab89c7d02b5a50067ef07dc689a003027c1e0d3d6b80fc8bc59ded169a5fa09b",
     "XinJiang-和静县-6-30.json": "28179feaa9769505b47815ed86e4ae063575781e2d9168f2260c79d1a5290c23",
     "XinJiang-和静县-7-1.json": "fc7170f116f749ea262d1bc614d6534bda88a0293083523920709c92c5c374ff",
     "XinJiang-和静县-7-2.json": "be7277c04ee46f868841e0f6a20163323f3c1e016b175ccdb1e6460c8dd4dff0",
@@ -293,6 +307,28 @@
         "XinJiang-巴楚县-15-27.json",
         "XinJiang-巴楚县-2-54.json"
       ]
+    },
+    "2026-08-06": {
+      "total_completed": 118,
+      "new_files": [
+        "XinJiang-和静县-10-20.json",
+        "XinJiang-和静县-10-5.json",
+        "XinJiang-和静县-13-37.json",
+        "XinJiang-和静县-14-14.json",
+        "XinJiang-和静县-14-42.json",
+        "XinJiang-和静县-18-23.json",
+        "XinJiang-和静县-18-24.json",
+        "XinJiang-和静县-18-27.json",
+        "XinJiang-和静县-54-55.json",
+        "XinJiang-和静县-55-53.json",
+        "XinJiang-和静县-55-54.json",
+        "XinJiang-和静县-55-56.json",
+        "XinJiang-和静县-56-53.json",
+        "XinJiang-和静县-56-54.json"
+      ],
+      "strengthened_files": [
+        "XinJiang-和静县-18-27.json"
+      ]
     }
   },
   "snapshots": [
@@ -491,6 +527,62 @@
     {
       "time": "2026-08-05 16:10:47",
       "total_completed": 104
+    },
+    {
+      "time": "2026-08-06 11:53:38",
+      "total_completed": 105
+    },
+    {
+      "time": "2026-08-06 11:55:38",
+      "total_completed": 106
+    },
+    {
+      "time": "2026-08-06 11:57:36",
+      "total_completed": 107
+    },
+    {
+      "time": "2026-08-06 12:11:39",
+      "total_completed": 108
+    },
+    {
+      "time": "2026-08-06 12:14:06",
+      "total_completed": 109
+    },
+    {
+      "time": "2026-08-06 12:18:06",
+      "total_completed": 110
+    },
+    {
+      "time": "2026-08-06 12:49:04",
+      "total_completed": 111
+    },
+    {
+      "time": "2026-08-06 12:51:32",
+      "total_completed": 112
+    },
+    {
+      "time": "2026-08-06 12:59:10",
+      "total_completed": 113
+    },
+    {
+      "time": "2026-08-06 13:03:08",
+      "total_completed": 114
+    },
+    {
+      "time": "2026-08-06 13:05:38",
+      "total_completed": 115
+    },
+    {
+      "time": "2026-08-06 13:12:12",
+      "total_completed": 116
+    },
+    {
+      "time": "2026-08-06 13:14:43",
+      "total_completed": 117
+    },
+    {
+      "time": "2026-08-06 13:16:44",
+      "total_completed": 118
     }
   ]
 }
