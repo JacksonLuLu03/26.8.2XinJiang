@@ -66,6 +66,7 @@
     "XinJiang-巴楚县-22-6.json": "bbdc021a368b8ea2c9ed91e04e2072e3bc3f0c247342fb62d133b02cae154cb8",
     "XinJiang-巴楚县-3-52.json": "c232f2fda04db66bfeade8cc3455b3433a07108aecc09fcd0cf1fe7b72c7f8b7",
     "XinJiang-巴楚县-5-53.json": "d679307a2708ee7c35a8eaac94d88c46f872be33099a3b1dbc2610286dfb1c7d",
+    "XinJiang-库车县-33-30.json": "7a1d25948ae15b60d85280164a13e59409e13e7772bd6d5b31c8ed8dfe525c43",
     "XinJiang-拜城县-15-13.json": "26b6243d4d1d37939fafa76154eb3823115dffa846fa0983e62bac065f740c15",
     "XinJiang-拜城县-26-34.json": "68a7c55f6b3a6e6f4a086f20f2cf8346be4f3739649cae93f34064af64eae823",
     "XinJiang-拜城县-26-35.json": "fbe9a8668432fd85e18520220b973231f489054d58385d46381be1c95547a52a",
@@ -311,7 +312,7 @@
       ]
     },
     "2026-08-06": {
-      "total_completed": 120,
+      "total_completed": 121,
       "new_files": [
         "XinJiang-和硕县-3-22.json",
         "XinJiang-和硕县-5-16.json",
@@ -328,7 +329,8 @@
         "XinJiang-和静县-55-54.json",
         "XinJiang-和静县-55-56.json",
         "XinJiang-和静县-56-53.json",
-        "XinJiang-和静县-56-54.json"
+        "XinJiang-和静县-56-54.json",
+        "XinJiang-库车县-33-30.json"
       ],
       "strengthened_files": [
         "XinJiang-和静县-18-27.json"
@@ -595,6 +597,10 @@
     {
       "time": "2026-08-06 16:25:32",
       "total_completed": 120
+    },
+    {
+      "time": "2026-08-06 22:10:59",
+      "total_completed": 121
     }
   ]
 }
