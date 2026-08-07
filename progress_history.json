@@ -49,6 +49,9 @@
     "XinJiang-和静县-6-30.json": "28179feaa9769505b47815ed86e4ae063575781e2d9168f2260c79d1a5290c23",
     "XinJiang-和静县-7-1.json": "fc7170f116f749ea262d1bc614d6534bda88a0293083523920709c92c5c374ff",
     "XinJiang-和静县-7-2.json": "be7277c04ee46f868841e0f6a20163323f3c1e016b175ccdb1e6460c8dd4dff0",
+    "XinJiang-喀什市-1-7.json": "09e7d94a4aef5417c13a834a16e9d31a4596a35e8d54a329c40d2c688383f66f",
+    "XinJiang-喀什市-1-8.json": "fa9b10ea6ed56f5f7ec3f17f125c4eae2f2b82328eb60e91b4e06d4c441d34d7",
+    "XinJiang-喀什市-1-9.json": "518198be0bbe0c8c51f7293c781308d04ac32313fa0c6a0a30513788de8af71e",
     "XinJiang-巴楚县-11-32.json": "ec303a8d8634ba5daf831ba2b8c25839750c998f111dd00928fc525073886d4a",
     "XinJiang-巴楚县-15-27.json": "6baa203df7d3e7c5724733049c384e13ae607105ec4d784f429c2423086093a6",
     "XinJiang-巴楚县-15-28.json": "2ea434632678652c35221e2ccb45999d7eba45dc40a8e043886f4c01a9509640",
@@ -99,8 +102,14 @@
     "XinJiang-昌吉市-5-9.json": "a37e4503b58a19fc6e8494aedecff8bb688e64301af20e09f0ee3bf6a45b0ffe",
     "XinJiang-昌吉市-6-12.json": "0ee1c2d5a855745be660c045efd9322eee61a3ed5f4519532244e56ca54d9b2a",
     "XinJiang-昌吉市-6-15.json": "ce47eb82fbce09447900e12a90a48d78f085153d771dfc5ba093fb1a1bfdad60",
+    "XinJiang-精河县-13-18.json": "731bedd579cc55051a7fd7f47ec7344b80fd2869db3acc2d36dd28b0d1442dce",
+    "XinJiang-精河县-13-19.json": "2e91041dc55c0295dbdee0724bab8eb428641554cbed74c119ae2ef0dd7106e7",
     "XinJiang-精河县-14-18.json": "d78af60f84c3eaf80d9dca6bc61e27a4eb84362712e8c9c824bab12a6c5dc49f",
     "XinJiang-精河县-14-19.json": "1a9c00831b9824ddbd1f174a98469b4e1a0b754eff23606271cf1c07e12325a7",
+    "XinJiang-精河县-14-20.json": "1d0e742a7a07fc49629eb69dd143b84732f69264b4b7ad942c99a4582db3b484",
+    "XinJiang-精河县-5-18.json": "67092e2f84ce3924e7620d4638723d17f25ddd5c5c8bac5de2e7aad37643f712",
+    "XinJiang-精河县-8-18.json": "b01cbea721a806e95db3049c6d14cf98bacd0e4899bcddb20ec27284a3912792",
+    "XinJiang-精河县-8-19.json": "50e59c625935578c86aac40c4837f8709ddf1fe4ac86df32d10721b392248cda",
     "XinJiang-阿克苏市-10-28.json": "a5196fa223d3a176b9b2329e1a0816620969ec32059306b6085684ff1309bfde",
     "XinJiang-阿克苏市-16-10.json": "be9608908ab9e9b59f1cf10aa31394a85efb8c94a91b36695f1ccfc07bdea8cc",
     "XinJiang-阿克苏市-21-10.json": "f3882df23bebfb22341ed603ee7cd7c3d77ab91c9af0656c853c9cca88e80c2d",
@@ -342,6 +351,23 @@
       ],
       "strengthened_files": [
         "XinJiang-和静县-18-27.json"
+      ]
+    },
+    "2026-08-07": {
+      "total_completed": 134,
+      "new_files": [
+        "XinJiang-喀什市-1-7.json",
+        "XinJiang-喀什市-1-8.json",
+        "XinJiang-喀什市-1-9.json",
+        "XinJiang-精河县-13-18.json",
+        "XinJiang-精河县-13-19.json",
+        "XinJiang-精河县-14-20.json",
+        "XinJiang-精河县-5-18.json",
+        "XinJiang-精河县-8-18.json",
+        "XinJiang-精河县-8-19.json"
+      ],
+      "strengthened_files": [
+        "XinJiang-精河县-14-20.json"
       ]
     }
   },
@@ -625,6 +651,38 @@
     {
       "time": "2026-08-06 22:17:20",
       "total_completed": 125
+    },
+    {
+      "time": "2026-08-07 15:57:51",
+      "total_completed": 126
+    },
+    {
+      "time": "2026-08-07 16:00:22",
+      "total_completed": 127
+    },
+    {
+      "time": "2026-08-07 16:01:24",
+      "total_completed": 128
+    },
+    {
+      "time": "2026-08-07 16:01:54",
+      "total_completed": 129
+    },
+    {
+      "time": "2026-08-07 16:05:33",
+      "total_completed": 131
+    },
+    {
+      "time": "2026-08-07 16:06:05",
+      "total_completed": 132
+    },
+    {
+      "time": "2026-08-07 16:06:34",
+      "total_completed": 133
+    },
+    {
+      "time": "2026-08-07 16:07:36",
+      "total_completed": 134
     }
   ]
 }
