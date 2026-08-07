@@ -107,6 +107,7 @@
     "XinJiang-精河县-14-18.json": "d78af60f84c3eaf80d9dca6bc61e27a4eb84362712e8c9c824bab12a6c5dc49f",
     "XinJiang-精河县-14-19.json": "1a9c00831b9824ddbd1f174a98469b4e1a0b754eff23606271cf1c07e12325a7",
     "XinJiang-精河县-14-20.json": "1d0e742a7a07fc49629eb69dd143b84732f69264b4b7ad942c99a4582db3b484",
+    "XinJiang-精河县-2-3.json": "e45ffbc77b108ba2f3b64c63b9fcc558067eeb4082a700362a149db35acb955b",
     "XinJiang-精河县-5-18.json": "67092e2f84ce3924e7620d4638723d17f25ddd5c5c8bac5de2e7aad37643f712",
     "XinJiang-精河县-8-18.json": "b01cbea721a806e95db3049c6d14cf98bacd0e4899bcddb20ec27284a3912792",
     "XinJiang-精河县-8-19.json": "50e59c625935578c86aac40c4837f8709ddf1fe4ac86df32d10721b392248cda",
@@ -354,7 +355,7 @@
       ]
     },
     "2026-08-07": {
-      "total_completed": 134,
+      "total_completed": 135,
       "new_files": [
         "XinJiang-喀什市-1-7.json",
         "XinJiang-喀什市-1-8.json",
@@ -362,6 +363,7 @@
         "XinJiang-精河县-13-18.json",
         "XinJiang-精河县-13-19.json",
         "XinJiang-精河县-14-20.json",
+        "XinJiang-精河县-2-3.json",
         "XinJiang-精河县-5-18.json",
         "XinJiang-精河县-8-18.json",
         "XinJiang-精河县-8-19.json"
@@ -683,6 +685,10 @@
     {
       "time": "2026-08-07 16:07:36",
       "total_completed": 134
+    },
+    {
+      "time": "2026-08-07 16:08:48",
+      "total_completed": 135
     }
   ]
 }
