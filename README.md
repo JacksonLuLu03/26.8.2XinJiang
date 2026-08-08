@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **147** | `[███████░░░░░░░░░░░░░]` 36.5% |
-| **未标记 (Remaining)** | **256** | `[█████████████░░░░░░░]` 63.5% |
+| **已标记 (Completed)** | **148** | `[███████░░░░░░░░░░░░░]` 36.7% |
+| **未标记 (Remaining)** | **255** | `[█████████████░░░░░░░]` 63.3% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-147%20%2F%20403%20(36.5%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-148%20%2F%20403%20(36.7%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-08 12:51:42 (UTC+8)_
+_最后更新：2026-08-08 12:51:53 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-08</b> : 进度 147/403 (36.5%) | 新增 12 | 加强 0</summary>
+<summary><b>2026-08-08</b> : 进度 148/403 (36.7%) | 新增 13 | 加强 0</summary>
 
 **新增文件**
 
-`XinJiang-喀什市-2-5`, `XinJiang-喀什市-2-7`, `XinJiang-喀什市-2-8`, `XinJiang-喀什市-2-9`, `XinJiang-喀什市-7-6`, `XinJiang-库车县-17-41`, `XinJiang-精河县-1-0`, `XinJiang-精河县-1-5`, `XinJiang-精河县-1-6`, `XinJiang-精河县-10-18`, `XinJiang-精河县-13-20`, `XinJiang-精河县-2-4`
+`XinJiang-喀什市-2-5`, `XinJiang-喀什市-2-7`, `XinJiang-喀什市-2-8`, `XinJiang-喀什市-2-9`, `XinJiang-喀什市-7-6`, `XinJiang-库车县-17-41`, `XinJiang-库车县-19-35`, `XinJiang-精河县-1-0`, `XinJiang-精河县-1-5`, `XinJiang-精河县-1-6`, `XinJiang-精河县-10-18`, `XinJiang-精河县-13-20`, `XinJiang-精河县-2-4`
 
 </details>
 
