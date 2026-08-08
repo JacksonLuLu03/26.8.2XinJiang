@@ -76,6 +76,7 @@
     "XinJiang-巴楚县-5-53.json": "d679307a2708ee7c35a8eaac94d88c46f872be33099a3b1dbc2610286dfb1c7d",
     "XinJiang-库车县-17-40.json": "99e277a386156c7eee930592e0ba6586de60ecb129084685b2fd09c2e57d29af",
     "XinJiang-库车县-17-41.json": "bbc5a5e33792cb6c58e3a3b69cb70c34447f38d6ffa7a46982856fb6ee49f636",
+    "XinJiang-库车县-19-35.json": "1a2c5da14aa9ab79edc7afe9f478b93c6f175c07198b8c20a9446e58c6b2f067",
     "XinJiang-库车县-33-30.json": "7a1d25948ae15b60d85280164a13e59409e13e7772bd6d5b31c8ed8dfe525c43",
     "XinJiang-库车县-9-44.json": "366bf36fa8fd0e59030a92feee6aec68475b5354a8cf129a0d7dd0c339b203fb",
     "XinJiang-拜城县-15-13.json": "26b6243d4d1d37939fafa76154eb3823115dffa846fa0983e62bac065f740c15",
@@ -385,7 +386,7 @@
       ]
     },
     "2026-08-08": {
-      "total_completed": 147,
+      "total_completed": 148,
       "new_files": [
         "XinJiang-喀什市-2-5.json",
         "XinJiang-喀什市-2-7.json",
@@ -393,6 +394,7 @@
         "XinJiang-喀什市-2-9.json",
         "XinJiang-喀什市-7-6.json",
         "XinJiang-库车县-17-41.json",
+        "XinJiang-库车县-19-35.json",
         "XinJiang-精河县-1-0.json",
         "XinJiang-精河县-1-5.json",
         "XinJiang-精河县-1-6.json",
@@ -767,6 +769,10 @@
     {
       "time": "2026-08-08 12:51:15",
       "total_completed": 147
+    },
+    {
+      "time": "2026-08-08 12:51:53",
+      "total_completed": 148
     }
   ]
 }
