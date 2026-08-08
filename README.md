@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **160** | `[████████░░░░░░░░░░░░]` 39.7% |
-| **未标记 (Remaining)** | **243** | `[████████████░░░░░░░░]` 60.3% |
+| **已标记 (Completed)** | **161** | `[████████░░░░░░░░░░░░]` 40.0% |
+| **未标记 (Remaining)** | **242** | `[████████████░░░░░░░░]` 60.0% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-160%20%2F%20403%20(39.7%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-161%20%2F%20403%20(40.0%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-08 16:19:28 (UTC+8)_
+_最后更新：2026-08-08 16:20:36 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-08</b> : 进度 160/403 (39.7%) | 新增 25 | 加强 1</summary>
+<summary><b>2026-08-08</b> : 进度 161/403 (40.0%) | 新增 26 | 加强 1</summary>
 
 **新增文件**
 
-`XinJiang-喀什市-2-5`, `XinJiang-喀什市-2-7`, `XinJiang-喀什市-2-8`, `XinJiang-喀什市-2-9`, `XinJiang-喀什市-7-6`, `XinJiang-库车县-17-41`, `XinJiang-库车县-19-35`, `XinJiang-库车县-20-35`, `XinJiang-库车县-23-11`, `XinJiang-库车县-24-0`, `XinJiang-库车县-24-1`, `XinJiang-库车县-24-19`, `XinJiang-库车县-24-30`, `XinJiang-库车县-24-31`, `XinJiang-库车县-24-32`, `XinJiang-库车县-24-33`, `XinJiang-库车县-25-14`, `XinJiang-库车县-25-15`, `XinJiang-库车县-26-28`, `XinJiang-精河县-1-0`, `XinJiang-精河县-1-5`, `XinJiang-精河县-1-6`, `XinJiang-精河县-10-18`, `XinJiang-精河县-13-20`, `XinJiang-精河县-2-4`
+`XinJiang-喀什市-2-5`, `XinJiang-喀什市-2-7`, `XinJiang-喀什市-2-8`, `XinJiang-喀什市-2-9`, `XinJiang-喀什市-7-6`, `XinJiang-库车县-17-41`, `XinJiang-库车县-19-35`, `XinJiang-库车县-20-35`, `XinJiang-库车县-23-11`, `XinJiang-库车县-24-0`, `XinJiang-库车县-24-1`, `XinJiang-库车县-24-19`, `XinJiang-库车县-24-30`, `XinJiang-库车县-24-31`, `XinJiang-库车县-24-32`, `XinJiang-库车县-24-33`, `XinJiang-库车县-25-14`, `XinJiang-库车县-25-15`, `XinJiang-库车县-26-28`, `XinJiang-库车县-27-29`, `XinJiang-精河县-1-0`, `XinJiang-精河县-1-5`, `XinJiang-精河县-1-6`, `XinJiang-精河县-10-18`, `XinJiang-精河县-13-20`, `XinJiang-精河县-2-4`
 
 **加强文件**
 
