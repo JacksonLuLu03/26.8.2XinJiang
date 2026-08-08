@@ -52,6 +52,11 @@
     "XinJiang-喀什市-1-7.json": "09e7d94a4aef5417c13a834a16e9d31a4596a35e8d54a329c40d2c688383f66f",
     "XinJiang-喀什市-1-8.json": "fa9b10ea6ed56f5f7ec3f17f125c4eae2f2b82328eb60e91b4e06d4c441d34d7",
     "XinJiang-喀什市-1-9.json": "518198be0bbe0c8c51f7293c781308d04ac32313fa0c6a0a30513788de8af71e",
+    "XinJiang-喀什市-2-5.json": "7e9026e81679e2297aef5700ca858ff6df0994165f302752e852309fedde54f1",
+    "XinJiang-喀什市-2-7.json": "b3fa650a447417088da58bd51ebe5e6746b6331edf2f7ec77cce685df61affca",
+    "XinJiang-喀什市-2-8.json": "115e120ffc02bf7d6defd565e3153abfdbe32aa233f191d9ef236471784a69c7",
+    "XinJiang-喀什市-2-9.json": "2b1c093f4d52c8c35f4a21c2f6c7d0349d8bb4c368fe264925c839c8330268fb",
+    "XinJiang-喀什市-7-6.json": "35c9cf1b202d8ead0265002e2064cdf4b27279b400a7b5ae4626784aa38decf4",
     "XinJiang-巴楚县-11-32.json": "ec303a8d8634ba5daf831ba2b8c25839750c998f111dd00928fc525073886d4a",
     "XinJiang-巴楚县-15-27.json": "6baa203df7d3e7c5724733049c384e13ae607105ec4d784f429c2423086093a6",
     "XinJiang-巴楚县-15-28.json": "2ea434632678652c35221e2ccb45999d7eba45dc40a8e043886f4c01a9509640",
@@ -102,12 +107,18 @@
     "XinJiang-昌吉市-5-9.json": "a37e4503b58a19fc6e8494aedecff8bb688e64301af20e09f0ee3bf6a45b0ffe",
     "XinJiang-昌吉市-6-12.json": "0ee1c2d5a855745be660c045efd9322eee61a3ed5f4519532244e56ca54d9b2a",
     "XinJiang-昌吉市-6-15.json": "ce47eb82fbce09447900e12a90a48d78f085153d771dfc5ba093fb1a1bfdad60",
+    "XinJiang-精河县-1-0.json": "1a1db3ccb931e1513a60a4e58c25fad30f0eb6abb3b20cc7222ff445b8253922",
+    "XinJiang-精河县-1-5.json": "d8ce8129f1cfc3a1157c3dae9f951c69f8e0347327aeb8e8216eb5fe3352bf01",
+    "XinJiang-精河县-1-6.json": "3f3eacff2dd6f3ddb5c27d91f2106c500a04a02c1e3c9672551b4465c5709dce",
+    "XinJiang-精河县-10-18.json": "1406ff6266b234c3c540436da24de207845bdb1658e026d7923417bf03514809",
     "XinJiang-精河县-13-18.json": "731bedd579cc55051a7fd7f47ec7344b80fd2869db3acc2d36dd28b0d1442dce",
     "XinJiang-精河县-13-19.json": "2e91041dc55c0295dbdee0724bab8eb428641554cbed74c119ae2ef0dd7106e7",
+    "XinJiang-精河县-13-20.json": "db3d93a142d4760fe6e0e40a87ddd67023c3b582ff5aeb1011f9766330a09b70",
     "XinJiang-精河县-14-18.json": "d78af60f84c3eaf80d9dca6bc61e27a4eb84362712e8c9c824bab12a6c5dc49f",
     "XinJiang-精河县-14-19.json": "1a9c00831b9824ddbd1f174a98469b4e1a0b754eff23606271cf1c07e12325a7",
     "XinJiang-精河县-14-20.json": "1d0e742a7a07fc49629eb69dd143b84732f69264b4b7ad942c99a4582db3b484",
     "XinJiang-精河县-2-3.json": "e45ffbc77b108ba2f3b64c63b9fcc558067eeb4082a700362a149db35acb955b",
+    "XinJiang-精河县-2-4.json": "2a53e80e10ead70bd18480aca5dd00b237e166a84cf2adb1efe4c06a7af65cc3",
     "XinJiang-精河县-5-18.json": "67092e2f84ce3924e7620d4638723d17f25ddd5c5c8bac5de2e7aad37643f712",
     "XinJiang-精河县-8-18.json": "b01cbea721a806e95db3049c6d14cf98bacd0e4899bcddb20ec27284a3912792",
     "XinJiang-精河县-8-19.json": "50e59c625935578c86aac40c4837f8709ddf1fe4ac86df32d10721b392248cda",
@@ -371,6 +382,23 @@
       "strengthened_files": [
         "XinJiang-精河县-14-20.json"
       ]
+    },
+    "2026-08-08": {
+      "total_completed": 146,
+      "new_files": [
+        "XinJiang-喀什市-2-5.json",
+        "XinJiang-喀什市-2-7.json",
+        "XinJiang-喀什市-2-8.json",
+        "XinJiang-喀什市-2-9.json",
+        "XinJiang-喀什市-7-6.json",
+        "XinJiang-精河县-1-0.json",
+        "XinJiang-精河县-1-5.json",
+        "XinJiang-精河县-1-6.json",
+        "XinJiang-精河县-10-18.json",
+        "XinJiang-精河县-13-20.json",
+        "XinJiang-精河县-2-4.json"
+      ],
+      "strengthened_files": []
     }
   },
   "snapshots": [
@@ -689,6 +717,50 @@
     {
       "time": "2026-08-07 16:08:48",
       "total_completed": 135
+    },
+    {
+      "time": "2026-08-08 12:24:46",
+      "total_completed": 136
+    },
+    {
+      "time": "2026-08-08 12:25:51",
+      "total_completed": 137
+    },
+    {
+      "time": "2026-08-08 12:27:57",
+      "total_completed": 138
+    },
+    {
+      "time": "2026-08-08 12:30:00",
+      "total_completed": 139
+    },
+    {
+      "time": "2026-08-08 12:33:34",
+      "total_completed": 140
+    },
+    {
+      "time": "2026-08-08 12:36:09",
+      "total_completed": 141
+    },
+    {
+      "time": "2026-08-08 12:38:46",
+      "total_completed": 142
+    },
+    {
+      "time": "2026-08-08 12:41:50",
+      "total_completed": 143
+    },
+    {
+      "time": "2026-08-08 12:43:55",
+      "total_completed": 144
+    },
+    {
+      "time": "2026-08-08 12:47:01",
+      "total_completed": 145
+    },
+    {
+      "time": "2026-08-08 12:48:35",
+      "total_completed": 146
     }
   ]
 }
