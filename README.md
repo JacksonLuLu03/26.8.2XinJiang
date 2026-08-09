@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **183** | `[█████████░░░░░░░░░░░]` 45.4% |
-| **未标记 (Remaining)** | **220** | `[███████████░░░░░░░░░]` 54.6% |
+| **已标记 (Completed)** | **184** | `[█████████░░░░░░░░░░░]` 45.7% |
+| **未标记 (Remaining)** | **219** | `[███████████░░░░░░░░░]` 54.3% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-183%20%2F%20403%20(45.4%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-184%20%2F%20403%20(45.7%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-09 11:39:33 (UTC+8)_
+_最后更新：2026-08-09 11:40:07 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-09</b> : 进度 183/403 (45.4%) | 新增 22 | 加强 0</summary>
+<summary><b>2026-08-09</b> : 进度 184/403 (45.7%) | 新增 23 | 加强 0</summary>
 
 **新增文件**
 
-`XinJiang-库车县-28-39`, `XinJiang-库车县-28-4`, `XinJiang-库车县-28-5`, `XinJiang-库车县-28-6`, `XinJiang-库车县-29-26`, `XinJiang-库车县-31-29`, `XinJiang-库车县-31-30`, `XinJiang-库车县-31-31`, `XinJiang-库车县-31-32`, `XinJiang-库车县-31-33`, `XinJiang-库车县-31-34`, `XinJiang-库车县-33-11`, `XinJiang-库车县-33-27`, `XinJiang-库车县-33-28`, `XinJiang-库车县-33-29`, `XinJiang-库车县-34-28`, `XinJiang-库车县-34-29`, `XinJiang-库车县-34-38`, `XinJiang-库车县-35-23`, `XinJiang-库车县-35-24`, `XinJiang-库车县-35-25`, `XinJiang-库车县-36-27`
+`XinJiang-库车县-28-39`, `XinJiang-库车县-28-4`, `XinJiang-库车县-28-5`, `XinJiang-库车县-28-6`, `XinJiang-库车县-29-26`, `XinJiang-库车县-31-29`, `XinJiang-库车县-31-30`, `XinJiang-库车县-31-31`, `XinJiang-库车县-31-32`, `XinJiang-库车县-31-33`, `XinJiang-库车县-31-34`, `XinJiang-库车县-33-11`, `XinJiang-库车县-33-27`, `XinJiang-库车县-33-28`, `XinJiang-库车县-33-29`, `XinJiang-库车县-34-28`, `XinJiang-库车县-34-29`, `XinJiang-库车县-34-38`, `XinJiang-库车县-35-23`, `XinJiang-库车县-35-24`, `XinJiang-库车县-35-25`, `XinJiang-库车县-36-27`, `XinJiang-库车县-37-20`
 
 </details>
 
