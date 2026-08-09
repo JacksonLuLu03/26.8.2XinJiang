@@ -1,10 +1,32 @@
-param(
+﻿param(
     [string]$Source,
     [string]$Project = $PSScriptRoot,
     [switch]$NoPush
 )
 
 $ErrorActionPreference = "Stop"
+
+$syncCreatedNew = $false
+$syncMutex = New-Object System.Threading.Mutex($true, "Global\LabelmeXinJiangSync", [ref]$syncCreatedNew)
+if (-not $syncCreatedNew) {
+    Write-Host "Sync is already running. Please wait for it to finish."
+    exit 0
+}
+
+function Clear-StaleGitIndexLock([string]$ProjectPath) {
+    $lockPath = Join-Path $ProjectPath ".git\index.lock"
+    if (-not (Test-Path -LiteralPath $lockPath)) {
+        return
+    }
+
+    $gitProcesses = @(Get-Process git,git-remote-https -ErrorAction SilentlyContinue)
+    if ($gitProcesses.Count -eq 0) {
+        Remove-Item -LiteralPath $lockPath -Force
+        Write-Host "Removed stale Git index.lock."
+    } else {
+        throw "Git is currently running and index.lock exists. Please wait and retry."
+    }
+}
 
 function Resolve-Git {
     $command = Get-Command git -ErrorAction SilentlyContinue
@@ -33,6 +55,7 @@ if (-not $Source) {
 }
 
 $Git = Resolve-Git
+Clear-StaleGitIndexLock $Project
 $ImagesDir = Join-Path $Project "images"
 $AnnotationsDir = Join-Path $Project "annotations"
 $ImageExts = @(".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff")
@@ -76,3 +99,4 @@ if (-not $NoPush) {
 }
 
 Write-Host "Synced. images=$($images.Count) annotations=$($jsons.Count)"
+
