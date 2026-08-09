@@ -74,6 +74,14 @@
     "XinJiang-巴楚县-22-6.json": "bbdc021a368b8ea2c9ed91e04e2072e3bc3f0c247342fb62d133b02cae154cb8",
     "XinJiang-巴楚县-3-52.json": "c232f2fda04db66bfeade8cc3455b3433a07108aecc09fcd0cf1fe7b72c7f8b7",
     "XinJiang-巴楚县-5-53.json": "d679307a2708ee7c35a8eaac94d88c46f872be33099a3b1dbc2610286dfb1c7d",
+    "XinJiang-库尔勒市-10-10.json": "67477db103b96d2a9dab65debed600de314bcec78bdde099be2c38c0254711ce",
+    "XinJiang-库尔勒市-13-11.json": "227b72ea24927876cf16fe36eecc257c54ec876e42b563cf04669cb924763249",
+    "XinJiang-库尔勒市-17-14.json": "89afcd42eef290c85af60fe83281352795fbcc92560a8e4662befb80847af00f",
+    "XinJiang-库尔勒市-17-20.json": "b40f983df3ecdaa114232582e6688bef93496edd831b542cd441376568dc068d",
+    "XinJiang-库尔勒市-18-21.json": "17f2ea81037a32b9868c08ef0abc612267b4068733a49035293c59854213e1b9",
+    "XinJiang-库尔勒市-18-22.json": "3223f266309e8372d702e8e82e7ae63aadafad35bd27c038ed02674bf7a48bb6",
+    "XinJiang-库尔勒市-18-9.json": "5a6d7de01c39c8244d5b13e556782de5d60009f25f789de7aab2e1e77e282044",
+    "XinJiang-库尔勒市-19-8.json": "073d56632d4afa1fbc9c52f70d289eadb11c34f5cbd2b4eb0c56785ab269cada",
     "XinJiang-库车县-17-40.json": "99e277a386156c7eee930592e0ba6586de60ecb129084685b2fd09c2e57d29af",
     "XinJiang-库车县-17-41.json": "bbc5a5e33792cb6c58e3a3b69cb70c34447f38d6ffa7a46982856fb6ee49f636",
     "XinJiang-库车县-19-35.json": "1a2c5da14aa9ab79edc7afe9f478b93c6f175c07198b8c20a9446e58c6b2f067",
@@ -119,6 +127,9 @@
     "XinJiang-库车县-40-18.json": "b2f14edf8c029357718f5b08e5e39f673b305622ceb90759b0115e4e03ec1c94",
     "XinJiang-库车县-41-15.json": "a4de49169fdeedf7fe68babafc705cc866222099fd8a4d2925718adf72449349",
     "XinJiang-库车县-41-17.json": "1be12c22a06bf1caaebabebc677a06a2b24ca01fb43438575c5cd56b34d7f821",
+    "XinJiang-库车县-41-18.json": "3eab8a685cfc30752fb98b60878255c21b0869f82bb8229089eb9ad21d3b2b89",
+    "XinJiang-库车县-44-16.json": "81b6a7034540179aa35aeb66fe3ba948be413aea7ea2354ad5ac88df1abcdef4",
+    "XinJiang-库车县-57-36.json": "fd3ea0e08ae73552b81961ba5abb66d323364ff55b08204df5c17d2ebd8769af",
     "XinJiang-库车县-9-44.json": "366bf36fa8fd0e59030a92feee6aec68475b5354a8cf129a0d7dd0c339b203fb",
     "XinJiang-拜城县-15-13.json": "26b6243d4d1d37939fafa76154eb3823115dffa846fa0983e62bac065f740c15",
     "XinJiang-拜城县-26-34.json": "68a7c55f6b3a6e6f4a086f20f2cf8346be4f3739649cae93f34064af64eae823",
@@ -461,8 +472,16 @@
       ]
     },
     "2026-08-09": {
-      "total_completed": 189,
+      "total_completed": 200,
       "new_files": [
+        "XinJiang-库尔勒市-10-10.json",
+        "XinJiang-库尔勒市-13-11.json",
+        "XinJiang-库尔勒市-17-14.json",
+        "XinJiang-库尔勒市-17-20.json",
+        "XinJiang-库尔勒市-18-21.json",
+        "XinJiang-库尔勒市-18-22.json",
+        "XinJiang-库尔勒市-18-9.json",
+        "XinJiang-库尔勒市-19-8.json",
         "XinJiang-库车县-28-39.json",
         "XinJiang-库车县-28-4.json",
         "XinJiang-库车县-28-5.json",
@@ -490,9 +509,23 @@
         "XinJiang-库车县-38-15.json",
         "XinJiang-库车县-40-18.json",
         "XinJiang-库车县-41-15.json",
-        "XinJiang-库车县-41-17.json"
+        "XinJiang-库车县-41-17.json",
+        "XinJiang-库车县-41-18.json",
+        "XinJiang-库车县-44-16.json",
+        "XinJiang-库车县-57-36.json"
       ],
-      "strengthened_files": []
+      "strengthened_files": [
+        "XinJiang-伽师县-3-41.json",
+        "XinJiang-博湖县-1-6.json",
+        "XinJiang-博湖县-6-3.json",
+        "XinJiang-拜城县-27-2.json",
+        "XinJiang-阿克苏市-24-10.json",
+        "XinJiang-阿克苏市-5-20.json",
+        "XinJiang-阿瓦提县-10-11.json",
+        "XinJiang-阿瓦提县-5-3.json",
+        "XinJiang-阿瓦提县-7-3.json",
+        "XinJiang-阿瓦提县-7-9.json"
+      ]
     }
   },
   "snapshots": [
@@ -947,6 +980,50 @@
     {
       "time": "2026-08-09 11:53:56",
       "total_completed": 189
+    },
+    {
+      "time": "2026-08-09 11:54:50",
+      "total_completed": 190
+    },
+    {
+      "time": "2026-08-09 11:56:56",
+      "total_completed": 191
+    },
+    {
+      "time": "2026-08-09 11:59:02",
+      "total_completed": 192
+    },
+    {
+      "time": "2026-08-09 11:59:27",
+      "total_completed": 193
+    },
+    {
+      "time": "2026-08-09 12:01:58",
+      "total_completed": 194
+    },
+    {
+      "time": "2026-08-09 12:03:13",
+      "total_completed": 195
+    },
+    {
+      "time": "2026-08-09 12:04:49",
+      "total_completed": 196
+    },
+    {
+      "time": "2026-08-09 12:05:01",
+      "total_completed": 197
+    },
+    {
+      "time": "2026-08-09 12:05:39",
+      "total_completed": 198
+    },
+    {
+      "time": "2026-08-09 12:07:07",
+      "total_completed": 199
+    },
+    {
+      "time": "2026-08-09 12:10:15",
+      "total_completed": 200
     }
   ]
 }
