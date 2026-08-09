@@ -1,10 +1,17 @@
-param(
+﻿param(
     [string]$Source,
     [string]$Project = $PSScriptRoot,
     [int]$IntervalSeconds = 20
 )
 
 $ErrorActionPreference = "Stop"
+
+$createdNew = $false
+$watcherMutex = New-Object System.Threading.Mutex($true, "Global\LabelmeXinJiangWatcher", [ref]$createdNew)
+if (-not $createdNew) {
+    Write-Host "Watcher is already running. No new watcher started."
+    exit 0
+}
 
 if (-not $Source) {
     $Source = Join-Path 'E:\Labelme' ('3' + ([char]0x5362) + ([char]0x6770))
@@ -50,3 +57,4 @@ while ($true) {
         Write-Log "Sync failed: $($_.Exception.Message)"
     }
 }
+
