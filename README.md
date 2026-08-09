@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **200** | `[██████████░░░░░░░░░░]` 49.6% |
-| **未标记 (Remaining)** | **203** | `[██████████░░░░░░░░░░]` 50.4% |
+| **已标记 (Completed)** | **201** | `[██████████░░░░░░░░░░]` 49.9% |
+| **未标记 (Remaining)** | **202** | `[██████████░░░░░░░░░░]` 50.1% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-200%20%2F%20403%20(49.6%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-201%20%2F%20403%20(49.9%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-09 12:11:07 (UTC+8)_
+_最后更新：2026-08-09 20:19:42 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-09</b> : 进度 200/403 (49.6%) | 新增 39 | 加强 10</summary>
+<summary><b>2026-08-09</b> : 进度 201/403 (49.9%) | 新增 40 | 加强 10</summary>
 
 **新增文件**
 
-`XinJiang-库尔勒市-10-10`, `XinJiang-库尔勒市-13-11`, `XinJiang-库尔勒市-17-14`, `XinJiang-库尔勒市-17-20`, `XinJiang-库尔勒市-18-21`, `XinJiang-库尔勒市-18-22`, `XinJiang-库尔勒市-18-9`, `XinJiang-库尔勒市-19-8`, `XinJiang-库车县-28-39`, `XinJiang-库车县-28-4`, `XinJiang-库车县-28-5`, `XinJiang-库车县-28-6`, `XinJiang-库车县-29-26`, `XinJiang-库车县-31-29`, `XinJiang-库车县-31-30`, `XinJiang-库车县-31-31`, `XinJiang-库车县-31-32`, `XinJiang-库车县-31-33`, `XinJiang-库车县-31-34`, `XinJiang-库车县-33-11`, `XinJiang-库车县-33-27`, `XinJiang-库车县-33-28`, `XinJiang-库车县-33-29`, `XinJiang-库车县-34-28`, `XinJiang-库车县-34-29`, `XinJiang-库车县-34-38`, `XinJiang-库车县-35-23`, `XinJiang-库车县-35-24`, `XinJiang-库车县-35-25`, `XinJiang-库车县-36-27`, `XinJiang-库车县-37-20`, `XinJiang-库车县-38-14`, `XinJiang-库车县-38-15`, `XinJiang-库车县-40-18`, `XinJiang-库车县-41-15`, `XinJiang-库车县-41-17`, `XinJiang-库车县-41-18`, `XinJiang-库车县-44-16`, `XinJiang-库车县-57-36`
+`XinJiang-库尔勒市-10-10`, `XinJiang-库尔勒市-13-11`, `XinJiang-库尔勒市-17-14`, `XinJiang-库尔勒市-17-20`, `XinJiang-库尔勒市-18-21`, `XinJiang-库尔勒市-18-22`, `XinJiang-库尔勒市-18-9`, `XinJiang-库尔勒市-19-8`, `XinJiang-库尔勒市-27-17`, `XinJiang-库车县-28-39`, `XinJiang-库车县-28-4`, `XinJiang-库车县-28-5`, `XinJiang-库车县-28-6`, `XinJiang-库车县-29-26`, `XinJiang-库车县-31-29`, `XinJiang-库车县-31-30`, `XinJiang-库车县-31-31`, `XinJiang-库车县-31-32`, `XinJiang-库车县-31-33`, `XinJiang-库车县-31-34`, `XinJiang-库车县-33-11`, `XinJiang-库车县-33-27`, `XinJiang-库车县-33-28`, `XinJiang-库车县-33-29`, `XinJiang-库车县-34-28`, `XinJiang-库车县-34-29`, `XinJiang-库车县-34-38`, `XinJiang-库车县-35-23`, `XinJiang-库车县-35-24`, `XinJiang-库车县-35-25`, `XinJiang-库车县-36-27`, `XinJiang-库车县-37-20`, `XinJiang-库车县-38-14`, `XinJiang-库车县-38-15`, `XinJiang-库车县-40-18`, `XinJiang-库车县-41-15`, `XinJiang-库车县-41-17`, `XinJiang-库车县-41-18`, `XinJiang-库车县-44-16`, `XinJiang-库车县-57-36`
 
 **加强文件**
 
