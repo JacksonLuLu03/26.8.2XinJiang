@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **211** | `[██████████░░░░░░░░░░]` 52.4% |
-| **未标记 (Remaining)** | **192** | `[██████████░░░░░░░░░░]` 47.6% |
+| **已标记 (Completed)** | **212** | `[███████████░░░░░░░░░]` 52.6% |
+| **未标记 (Remaining)** | **191** | `[█████████░░░░░░░░░░░]` 47.4% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-211%20%2F%20403%20(52.4%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-212%20%2F%20403%20(52.6%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-10 11:53:57 (UTC+8)_
+_最后更新：2026-08-10 11:56:59 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-10</b> : 进度 211/403 (52.4%) | 新增 10 | 加强 0</summary>
+<summary><b>2026-08-10</b> : 进度 212/403 (52.6%) | 新增 11 | 加强 0</summary>
 
 **新增文件**
 
-`XinJiang-奎屯市-2-12`, `XinJiang-奎屯市-2-14`, `XinJiang-奎屯市-3-12`, `XinJiang-奎屯市-3-13`, `XinJiang-奎屯市-7-11`, `XinJiang-库尔勒市-26-16`, `XinJiang-库尔勒市-27-18`, `XinJiang-库尔勒市-29-41`, `XinJiang-库尔勒市-31-35`, `XinJiang-库尔勒市-35-34`
+`XinJiang-奎屯市-2-12`, `XinJiang-奎屯市-2-14`, `XinJiang-奎屯市-3-12`, `XinJiang-奎屯市-3-13`, `XinJiang-奎屯市-7-11`, `XinJiang-奎屯市-8-7`, `XinJiang-库尔勒市-26-16`, `XinJiang-库尔勒市-27-18`, `XinJiang-库尔勒市-29-41`, `XinJiang-库尔勒市-31-35`, `XinJiang-库尔勒市-35-34`
 
 </details>
 
