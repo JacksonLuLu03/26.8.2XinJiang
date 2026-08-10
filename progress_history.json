@@ -66,7 +66,9 @@
     "XinJiang-奎屯市-8-11.json": "cd53e45ce76fca61e3c1ba0133a4125232906a1b45cee47dd087ed7baa791f8e",
     "XinJiang-奎屯市-8-7.json": "8a15a9659293b2ffdec2d6ade1a719e91663d65b46dbc2f4d01f23ebffb7003f",
     "XinJiang-奎屯市-8-9.json": "fe1101ca042c83a806f2f3b20ae9abae7b8ce76241a1b9008af42a44f53d5b58",
+    "XinJiang-奎屯市-9-10.json": "36f090bde55e1d5b786aafe5e98354dad6a999f19a7efb306934be3e97779748",
     "XinJiang-奎屯市-9-8.json": "6ace8bafd9f75e795322be26693bec06c5f734049df0c74c581bb17b4f2fe9c5",
+    "XinJiang-奎屯市-9-9.json": "3b346e11f6d41c292e71ff85f3e8b1f2cead7068bf0131740bb44f413c67d864",
     "XinJiang-巴楚县-11-32.json": "ec303a8d8634ba5daf831ba2b8c25839750c998f111dd00928fc525073886d4a",
     "XinJiang-巴楚县-15-27.json": "6baa203df7d3e7c5724733049c384e13ae607105ec4d784f429c2423086093a6",
     "XinJiang-巴楚县-15-28.json": "2ea434632678652c35221e2ccb45999d7eba45dc40a8e043886f4c01a9509640",
@@ -545,7 +547,7 @@
       ]
     },
     "2026-08-10": {
-      "total_completed": 216,
+      "total_completed": 218,
       "new_files": [
         "XinJiang-奎屯市-2-12.json",
         "XinJiang-奎屯市-2-14.json",
@@ -556,7 +558,9 @@
         "XinJiang-奎屯市-8-11.json",
         "XinJiang-奎屯市-8-7.json",
         "XinJiang-奎屯市-8-9.json",
+        "XinJiang-奎屯市-9-10.json",
         "XinJiang-奎屯市-9-8.json",
+        "XinJiang-奎屯市-9-9.json",
         "XinJiang-库尔勒市-26-16.json",
         "XinJiang-库尔勒市-27-18.json",
         "XinJiang-库尔勒市-29-41.json",
@@ -1122,6 +1126,10 @@
     {
       "time": "2026-08-10 12:05:32",
       "total_completed": 216
+    },
+    {
+      "time": "2026-08-10 12:07:49",
+      "total_completed": 218
     }
   ]
 }
