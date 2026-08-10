@@ -84,6 +84,7 @@
     "XinJiang-库尔勒市-19-8.json": "073d56632d4afa1fbc9c52f70d289eadb11c34f5cbd2b4eb0c56785ab269cada",
     "XinJiang-库尔勒市-26-16.json": "538ecf3d0a6d1ea1732b73cd666703581c0640d82f00e506b722f94782238227",
     "XinJiang-库尔勒市-27-17.json": "c33e5511c42051ffbdce1b55e0f8fd6222d81b7a5bf6844261d8d1fecbf76a10",
+    "XinJiang-库尔勒市-27-18.json": "557e4b686a94eaf1da8b5c3881b90617312de3b5f582bc5cb6119f69d145aafb",
     "XinJiang-库车县-17-40.json": "99e277a386156c7eee930592e0ba6586de60ecb129084685b2fd09c2e57d29af",
     "XinJiang-库车县-17-41.json": "bbc5a5e33792cb6c58e3a3b69cb70c34447f38d6ffa7a46982856fb6ee49f636",
     "XinJiang-库车县-19-35.json": "1a2c5da14aa9ab79edc7afe9f478b93c6f175c07198b8c20a9446e58c6b2f067",
@@ -531,9 +532,10 @@
       ]
     },
     "2026-08-10": {
-      "total_completed": 202,
+      "total_completed": 203,
       "new_files": [
-        "XinJiang-库尔勒市-26-16.json"
+        "XinJiang-库尔勒市-26-16.json",
+        "XinJiang-库尔勒市-27-18.json"
       ],
       "strengthened_files": []
     }
@@ -1042,6 +1044,10 @@
     {
       "time": "2026-08-10 11:33:57",
       "total_completed": 202
+    },
+    {
+      "time": "2026-08-10 11:36:36",
+      "total_completed": 203
     }
   ]
 }
