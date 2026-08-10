@@ -60,6 +60,7 @@
     "XinJiang-奎屯市-2-12.json": "be9659ceba5608c7fb6ecb9726c5580689410648b548ae9b1af145e04e165256",
     "XinJiang-奎屯市-2-14.json": "6a26906b0a7d4ba0f95a096e2d5b4d7fde3950cd50e6888c359cfe0a43daad08",
     "XinJiang-奎屯市-3-12.json": "0cb11540e8a37d6750383b880cf1a9318d367c9329c5a79ab121e4b613575add",
+    "XinJiang-奎屯市-3-13.json": "ffb5097d0a9ccbaa2430ac5e6e09ab603ce01906018a95060cc0f4d2190f3b22",
     "XinJiang-巴楚县-11-32.json": "ec303a8d8634ba5daf831ba2b8c25839750c998f111dd00928fc525073886d4a",
     "XinJiang-巴楚县-15-27.json": "6baa203df7d3e7c5724733049c384e13ae607105ec4d784f429c2423086093a6",
     "XinJiang-巴楚县-15-28.json": "2ea434632678652c35221e2ccb45999d7eba45dc40a8e043886f4c01a9509640",
@@ -538,11 +539,12 @@
       ]
     },
     "2026-08-10": {
-      "total_completed": 209,
+      "total_completed": 210,
       "new_files": [
         "XinJiang-奎屯市-2-12.json",
         "XinJiang-奎屯市-2-14.json",
         "XinJiang-奎屯市-3-12.json",
+        "XinJiang-奎屯市-3-13.json",
         "XinJiang-库尔勒市-26-16.json",
         "XinJiang-库尔勒市-27-18.json",
         "XinJiang-库尔勒市-29-41.json",
@@ -1080,6 +1082,10 @@
     {
       "time": "2026-08-10 11:50:06",
       "total_completed": 209
+    },
+    {
+      "time": "2026-08-10 11:51:23",
+      "total_completed": 210
     }
   ]
 }
