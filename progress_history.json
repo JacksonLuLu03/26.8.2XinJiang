@@ -57,7 +57,7 @@
     "XinJiang-喀什市-2-8.json": "115e120ffc02bf7d6defd565e3153abfdbe32aa233f191d9ef236471784a69c7",
     "XinJiang-喀什市-2-9.json": "2b1c093f4d52c8c35f4a21c2f6c7d0349d8bb4c368fe264925c839c8330268fb",
     "XinJiang-喀什市-7-6.json": "35c9cf1b202d8ead0265002e2064cdf4b27279b400a7b5ae4626784aa38decf4",
-    "XinJiang-奎屯市-10-10.json": "4028b8183f48272025cc8a906ff9126ef8c19b29c91d1a08292aaa3d380a2186",
+    "XinJiang-奎屯市-10-10.json": "ecf780972d63b8b9678fb8f9770fb5c7dd841f8e3cd71a981165cdaf46c2797b",
     "XinJiang-奎屯市-10-9.json": "5f33c849c697f8f3ac478b9ead660db2eb00e9bc41f96fd34d51d6d5c61ba3fb",
     "XinJiang-奎屯市-2-12.json": "be9659ceba5608c7fb6ecb9726c5580689410648b548ae9b1af145e04e165256",
     "XinJiang-奎屯市-2-14.json": "6a26906b0a7d4ba0f95a096e2d5b4d7fde3950cd50e6888c359cfe0a43daad08",
@@ -571,7 +571,9 @@
         "XinJiang-库尔勒市-31-35.json",
         "XinJiang-库尔勒市-35-34.json"
       ],
-      "strengthened_files": []
+      "strengthened_files": [
+        "XinJiang-奎屯市-10-10.json"
+      ]
     }
   },
   "snapshots": [
