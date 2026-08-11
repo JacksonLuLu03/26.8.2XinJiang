@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **244** | `[████████████░░░░░░░░]` 60.5% |
-| **未标记 (Remaining)** | **159** | `[████████░░░░░░░░░░░░]` 39.5% |
+| **已标记 (Completed)** | **245** | `[████████████░░░░░░░░]` 60.8% |
+| **未标记 (Remaining)** | **158** | `[████████░░░░░░░░░░░░]` 39.2% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-244%20%2F%20403%20(60.5%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-245%20%2F%20403%20(60.8%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-11 12:38:39 (UTC+8)_
+_最后更新：2026-08-11 12:39:23 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-11</b> : 进度 244/403 (60.5%) | 新增 22 | 加强 2</summary>
+<summary><b>2026-08-11</b> : 进度 245/403 (60.8%) | 新增 23 | 加强 2</summary>
 
 **新增文件**
 
-`XinJiang-轮台县-16-12`, `XinJiang-轮台县-16-18`, `XinJiang-轮台县-16-19`, `XinJiang-轮台县-24-22`, `XinJiang-轮台县-26-21`, `XinJiang-轮台县-28-40`, `XinJiang-轮台县-28-41`, `XinJiang-轮台县-28-42`, `XinJiang-轮台县-29-12`, `XinJiang-轮台县-29-27`, `XinJiang-轮台县-29-29`, `XinJiang-轮台县-29-30`, `XinJiang-轮台县-30-28`, `XinJiang-轮台县-30-31`, `XinJiang-轮台县-30-8`, `XinJiang-轮台县-32-27`, `XinJiang-轮台县-32-28`, `XinJiang-轮台县-32-31`, `XinJiang-轮台县-32-32`, `XinJiang-轮台县-32-33`, `XinJiang-轮台县-32-34`, `XinJiang-轮台县-32-35`
+`XinJiang-轮台县-16-12`, `XinJiang-轮台县-16-18`, `XinJiang-轮台县-16-19`, `XinJiang-轮台县-24-22`, `XinJiang-轮台县-26-21`, `XinJiang-轮台县-28-40`, `XinJiang-轮台县-28-41`, `XinJiang-轮台县-28-42`, `XinJiang-轮台县-29-12`, `XinJiang-轮台县-29-27`, `XinJiang-轮台县-29-29`, `XinJiang-轮台县-29-30`, `XinJiang-轮台县-30-28`, `XinJiang-轮台县-30-31`, `XinJiang-轮台县-30-8`, `XinJiang-轮台县-32-27`, `XinJiang-轮台县-32-28`, `XinJiang-轮台县-32-31`, `XinJiang-轮台县-32-32`, `XinJiang-轮台县-32-33`, `XinJiang-轮台县-32-34`, `XinJiang-轮台县-32-35`, `XinJiang-轮台县-33-43`
 
 **加强文件**
 
