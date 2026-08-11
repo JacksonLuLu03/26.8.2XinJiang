@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **260** | `[█████████████░░░░░░░]` 64.5% |
-| **未标记 (Remaining)** | **143** | `[███████░░░░░░░░░░░░░]` 35.5% |
+| **已标记 (Completed)** | **261** | `[█████████████░░░░░░░]` 64.8% |
+| **未标记 (Remaining)** | **142** | `[███████░░░░░░░░░░░░░]` 35.2% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-260%20%2F%20403%20(64.5%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-261%20%2F%20403%20(64.8%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-11 13:16:41 (UTC+8)_
+_最后更新：2026-08-11 20:44:05 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-11</b> : 进度 260/403 (64.5%) | 新增 38 | 加强 3</summary>
+<summary><b>2026-08-11</b> : 进度 261/403 (64.8%) | 新增 39 | 加强 3</summary>
 
 **新增文件**
 
-`XinJiang-沙雅县-2-4`, `XinJiang-沙雅县-2-5`, `XinJiang-轮台县-16-12`, `XinJiang-轮台县-16-18`, `XinJiang-轮台县-16-19`, `XinJiang-轮台县-24-22`, `XinJiang-轮台县-26-21`, `XinJiang-轮台县-28-40`, `XinJiang-轮台县-28-41`, `XinJiang-轮台县-28-42`, `XinJiang-轮台县-29-12`, `XinJiang-轮台县-29-27`, `XinJiang-轮台县-29-29`, `XinJiang-轮台县-29-30`, `XinJiang-轮台县-30-28`, `XinJiang-轮台县-30-31`, `XinJiang-轮台县-30-8`, `XinJiang-轮台县-32-27`, `XinJiang-轮台县-32-28`, `XinJiang-轮台县-32-31`, `XinJiang-轮台县-32-32`, `XinJiang-轮台县-32-33`, `XinJiang-轮台县-32-34`, `XinJiang-轮台县-32-35`, `XinJiang-轮台县-33-43`, `XinJiang-轮台县-43-19`, `XinJiang-轮台县-51-10`, `XinJiang-麦盖提县-10-6`, `XinJiang-麦盖提县-10-7`, `XinJiang-麦盖提县-12-12`, `XinJiang-麦盖提县-14-15`, `XinJiang-麦盖提县-14-9`, `XinJiang-麦盖提县-16-16`, `XinJiang-麦盖提县-17-4`, `XinJiang-麦盖提县-25-5`, `XinJiang-麦盖提县-5-23`, `XinJiang-麦盖提县-8-12`, `XinJiang-麦盖提县-8-13`
+`XinJiang-沙雅县-2-4`, `XinJiang-沙雅县-2-5`, `XinJiang-沙雅县-4-3`, `XinJiang-轮台县-16-12`, `XinJiang-轮台县-16-18`, `XinJiang-轮台县-16-19`, `XinJiang-轮台县-24-22`, `XinJiang-轮台县-26-21`, `XinJiang-轮台县-28-40`, `XinJiang-轮台县-28-41`, `XinJiang-轮台县-28-42`, `XinJiang-轮台县-29-12`, `XinJiang-轮台县-29-27`, `XinJiang-轮台县-29-29`, `XinJiang-轮台县-29-30`, `XinJiang-轮台县-30-28`, `XinJiang-轮台县-30-31`, `XinJiang-轮台县-30-8`, `XinJiang-轮台县-32-27`, `XinJiang-轮台县-32-28`, `XinJiang-轮台县-32-31`, `XinJiang-轮台县-32-32`, `XinJiang-轮台县-32-33`, `XinJiang-轮台县-32-34`, `XinJiang-轮台县-32-35`, `XinJiang-轮台县-33-43`, `XinJiang-轮台县-43-19`, `XinJiang-轮台县-51-10`, `XinJiang-麦盖提县-10-6`, `XinJiang-麦盖提县-10-7`, `XinJiang-麦盖提县-12-12`, `XinJiang-麦盖提县-14-15`, `XinJiang-麦盖提县-14-9`, `XinJiang-麦盖提县-16-16`, `XinJiang-麦盖提县-17-4`, `XinJiang-麦盖提县-25-5`, `XinJiang-麦盖提县-5-23`, `XinJiang-麦盖提县-8-12`, `XinJiang-麦盖提县-8-13`
 
 **加强文件**
 
