@@ -247,6 +247,7 @@
     "XinJiang-阿瓦提县-8-1.json": "9dbf7655dee5caeabe53a82fa313ee1d80bcfa6c599abeaaa270225482f58589",
     "XinJiang-阿瓦提县-8-2.json": "1225899ff841b8070da206ffb6bb6daa4f60dcba700bd6995d9683df50c2960e",
     "XinJiang-阿瓦提县-8-6.json": "f398a3a525edc008fd8a0ad3a3ec5d32b6c3837787f049f5ea97d87a4a637ce9",
+    "XinJiang-麦盖提县-10-6.json": "b6518a4fccb6fbfc89077fc3dda7664dda73f55ed4e3b0570809f24fb9306e79",
     "XinJiang-麦盖提县-5-23.json": "0bc8e44af10c182d892bbfd219b2f59d08a2c07a164cab64e21bd949fad8f69c",
     "XinJiang-麦盖提县-8-12.json": "3e36891b389aa48ca7cce99bcfea5ac566750b120b7dd2012e9c8acb86e6c1dd",
     "XinJiang-麦盖提县-8-13.json": "f0cef5852c8404529ee76e2dd9ea9386790a7f81f18c223838c854061d1abf56"
@@ -608,7 +609,7 @@
       ]
     },
     "2026-08-11": {
-      "total_completed": 250,
+      "total_completed": 251,
       "new_files": [
         "XinJiang-轮台县-16-12.json",
         "XinJiang-轮台县-16-18.json",
@@ -635,6 +636,7 @@
         "XinJiang-轮台县-33-43.json",
         "XinJiang-轮台县-43-19.json",
         "XinJiang-轮台县-51-10.json",
+        "XinJiang-麦盖提县-10-6.json",
         "XinJiang-麦盖提县-5-23.json",
         "XinJiang-麦盖提县-8-12.json",
         "XinJiang-麦盖提县-8-13.json"
@@ -1317,6 +1319,10 @@
     {
       "time": "2026-08-11 12:48:56",
       "total_completed": 250
+    },
+    {
+      "time": "2026-08-11 12:50:54",
+      "total_completed": 251
     }
   ]
 }
