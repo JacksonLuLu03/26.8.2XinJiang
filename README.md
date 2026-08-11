@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **224** | `[███████████░░░░░░░░░]` 55.6% |
-| **未标记 (Remaining)** | **179** | `[█████████░░░░░░░░░░░]` 44.4% |
+| **已标记 (Completed)** | **226** | `[███████████░░░░░░░░░]` 56.1% |
+| **未标记 (Remaining)** | **177** | `[█████████░░░░░░░░░░░]` 43.9% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-224%20%2F%20403%20(55.6%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-226%20%2F%20403%20(56.1%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-11 12:11:39 (UTC+8)_
+_最后更新：2026-08-11 12:11:44 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-11</b> : 进度 224/403 (55.6%) | 新增 2 | 加强 0</summary>
+<summary><b>2026-08-11</b> : 进度 226/403 (56.1%) | 新增 4 | 加强 0</summary>
 
 **新增文件**
 
-`XinJiang-轮台县-16-12`, `XinJiang-轮台县-16-18`
+`XinJiang-轮台县-16-12`, `XinJiang-轮台县-16-18`, `XinJiang-轮台县-16-19`, `XinJiang-轮台县-24-22`
 
 </details>
 
