@@ -210,6 +210,7 @@
     "XinJiang-轮台县-29-27.json": "62fec1f3abb71d709c90360074ac7b9fce43fa3975c8b4fbed4786cfe7433667",
     "XinJiang-轮台县-29-29.json": "127699927830b33124833e91b59c4ef4779141b15dbc78012d6bc09e9d921b8c",
     "XinJiang-轮台县-29-30.json": "9a559b867986cccd43802bdd0318e8c9ba6df36ad846812de25ff207756fbb77",
+    "XinJiang-轮台县-30-28.json": "4d019a5cdd6a0f2f68af2c5811679bd7a674216c5b11c8729c3301de3f0bc753",
     "XinJiang-轮台县-30-8.json": "ff5d3d04f425d8e196459a4ae8d0d5554f9fba699773a2d8ac789429c8bf3391",
     "XinJiang-阿克苏市-10-28.json": "a5196fa223d3a176b9b2329e1a0816620969ec32059306b6085684ff1309bfde",
     "XinJiang-阿克苏市-16-10.json": "be9608908ab9e9b59f1cf10aa31394a85efb8c94a91b36695f1ccfc07bdea8cc",
@@ -593,7 +594,7 @@
       ]
     },
     "2026-08-11": {
-      "total_completed": 235,
+      "total_completed": 236,
       "new_files": [
         "XinJiang-轮台县-16-12.json",
         "XinJiang-轮台县-16-18.json",
@@ -607,6 +608,7 @@
         "XinJiang-轮台县-29-27.json",
         "XinJiang-轮台县-29-29.json",
         "XinJiang-轮台县-29-30.json",
+        "XinJiang-轮台县-30-28.json",
         "XinJiang-轮台县-30-8.json"
       ],
       "strengthened_files": [
@@ -1231,6 +1233,10 @@
     {
       "time": "2026-08-11 12:25:23",
       "total_completed": 235
+    },
+    {
+      "time": "2026-08-11 12:26:43",
+      "total_completed": 236
     }
   ]
 }
