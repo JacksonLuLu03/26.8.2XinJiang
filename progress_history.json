@@ -183,6 +183,7 @@
     "XinJiang-昌吉市-5-9.json": "a37e4503b58a19fc6e8494aedecff8bb688e64301af20e09f0ee3bf6a45b0ffe",
     "XinJiang-昌吉市-6-12.json": "0ee1c2d5a855745be660c045efd9322eee61a3ed5f4519532244e56ca54d9b2a",
     "XinJiang-昌吉市-6-15.json": "ce47eb82fbce09447900e12a90a48d78f085153d771dfc5ba093fb1a1bfdad60",
+    "XinJiang-沙雅县-2-4.json": "ca76df3ead9ea9a714157ad7f61f94bb1db87c09166e232a2b3f9bbe88ecd5a2",
     "XinJiang-精河县-1-0.json": "1a1db3ccb931e1513a60a4e58c25fad30f0eb6abb3b20cc7222ff445b8253922",
     "XinJiang-精河县-1-5.json": "d8ce8129f1cfc3a1157c3dae9f951c69f8e0347327aeb8e8216eb5fe3352bf01",
     "XinJiang-精河县-1-6.json": "3f3eacff2dd6f3ddb5c27d91f2106c500a04a02c1e3c9672551b4465c5709dce",
@@ -254,7 +255,7 @@
     "XinJiang-麦盖提县-14-9.json": "b20d63e8d2683270f11d7e0994f3834b20959147b888d023a91367cb98969b29",
     "XinJiang-麦盖提县-16-16.json": "5e6d919c70cbac7dbfbee83b619bdb8455b464aa3d8a8ac308b3c59251cb4759",
     "XinJiang-麦盖提县-17-4.json": "fe37e4cee4707208f1a740f95ce1f3be279035641547383d362a70b9f04c2881",
-    "XinJiang-麦盖提县-25-5.json": "e5b7aa6753b95976ca4482c9ba383eaa49dfc99d9824f51efb65cb47c566c1f9",
+    "XinJiang-麦盖提县-25-5.json": "8c6e07fe5106c125d0224196d791529b3aae6e00c28a0f774a21a1d53373c8f5",
     "XinJiang-麦盖提县-5-23.json": "0bc8e44af10c182d892bbfd219b2f59d08a2c07a164cab64e21bd949fad8f69c",
     "XinJiang-麦盖提县-8-12.json": "3e36891b389aa48ca7cce99bcfea5ac566750b120b7dd2012e9c8acb86e6c1dd",
     "XinJiang-麦盖提县-8-13.json": "f0cef5852c8404529ee76e2dd9ea9386790a7f81f18c223838c854061d1abf56"
@@ -616,8 +617,9 @@
       ]
     },
     "2026-08-11": {
-      "total_completed": 258,
+      "total_completed": 259,
       "new_files": [
+        "XinJiang-沙雅县-2-4.json",
         "XinJiang-轮台县-16-12.json",
         "XinJiang-轮台县-16-18.json",
         "XinJiang-轮台县-16-19.json",
@@ -657,7 +659,8 @@
       ],
       "strengthened_files": [
         "XinJiang-轮台县-29-12.json",
-        "XinJiang-轮台县-29-30.json"
+        "XinJiang-轮台县-29-30.json",
+        "XinJiang-麦盖提县-25-5.json"
       ]
     }
   },
@@ -1365,6 +1368,10 @@
     {
       "time": "2026-08-11 13:11:05",
       "total_completed": 258
+    },
+    {
+      "time": "2026-08-11 13:14:25",
+      "total_completed": 259
     }
   ]
 }
