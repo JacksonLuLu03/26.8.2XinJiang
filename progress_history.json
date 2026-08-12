@@ -245,6 +245,7 @@
     "XinJiang-轮台县-43-19.json": "eead1202942d53c09a12ac20c9bba2c4271052def38d0dfcb735c6042ad56a80",
     "XinJiang-轮台县-51-10.json": "efee66410919c97170892b230e186f3e2b23759b825ec63901d718034525be03",
     "XinJiang-铁门关市-3-7.json": "ee9f0cd277218a248f468c019c02ae2b681799c7be931c91a2befad4a12d17d0",
+    "XinJiang-铁门关市-4-2.json": "6f2d311c69f7dc9553bd788353faf61f1ca8370d28f6c5aff35def7608a47d45",
     "XinJiang-阿克苏市-10-28.json": "a5196fa223d3a176b9b2329e1a0816620969ec32059306b6085684ff1309bfde",
     "XinJiang-阿克苏市-16-10.json": "be9608908ab9e9b59f1cf10aa31394a85efb8c94a91b36695f1ccfc07bdea8cc",
     "XinJiang-阿克苏市-21-10.json": "f3882df23bebfb22341ed603ee7cd7c3d77ab91c9af0656c853c9cca88e80c2d",
@@ -708,12 +709,13 @@
       "strengthened_files": []
     },
     "2026-08-13": {
-      "total_completed": 280,
+      "total_completed": 281,
       "new_files": [
         "XinJiang-疏勒县-16-10.json",
         "XinJiang-疏勒县-16-11.json",
         "XinJiang-疏勒县-17-10.json",
-        "XinJiang-铁门关市-3-7.json"
+        "XinJiang-铁门关市-3-7.json",
+        "XinJiang-铁门关市-4-2.json"
       ],
       "strengthened_files": [
         "XinJiang-疏勒县-17-10.json"
@@ -1496,6 +1498,10 @@
     {
       "time": "2026-08-13 00:21:41",
       "total_completed": 280
+    },
+    {
+      "time": "2026-08-13 00:23:45",
+      "total_completed": 281
     }
   ]
 }
