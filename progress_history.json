@@ -187,8 +187,10 @@
     "XinJiang-沙雅县-16-3.json": "bc33d2b23fc295329d85225b02990edc3306a07c154b4510211fc1087e7ab982",
     "XinJiang-沙雅县-16-4.json": "0f437a6659f484068c04ffa7264d61c36d095a814aa2bd4a4c592c3fe9d83590",
     "XinJiang-沙雅县-16-5.json": "20096c126215b1b959c60beee104b340a9be0885b5d94fff8f9a4e6f59f2b1e4",
+    "XinJiang-沙雅县-19-18.json": "96c36f4914739464e497890507f941b21828048d880e022e38daa5044ad2db0b",
     "XinJiang-沙雅县-2-4.json": "ca76df3ead9ea9a714157ad7f61f94bb1db87c09166e232a2b3f9bbe88ecd5a2",
     "XinJiang-沙雅县-2-5.json": "208c81a04946f556de8cd04813ea7e0a0ddc1e83f699a0a588a901e92fa35268",
+    "XinJiang-沙雅县-20-9.json": "1edd15a5bd7599af6494c3269442f698b913e4bdba85c20d3fa632bb6472c7fb",
     "XinJiang-沙雅县-4-3.json": "4c11ec29e2a66740a92c9077fef9743fa48b1fe9305ed4c21de0f18037093e4c",
     "XinJiang-沙雅县-4-4.json": "19db59c5d326b87115c88d092b8586866cfa1fb4f8424933186e1eafd5221935",
     "XinJiang-精河县-1-0.json": "1a1db3ccb931e1513a60a4e58c25fad30f0eb6abb3b20cc7222ff445b8253922",
@@ -673,12 +675,14 @@
       ]
     },
     "2026-08-12": {
-      "total_completed": 266,
+      "total_completed": 268,
       "new_files": [
         "XinJiang-沙雅县-16-2.json",
         "XinJiang-沙雅县-16-3.json",
         "XinJiang-沙雅县-16-4.json",
         "XinJiang-沙雅县-16-5.json",
+        "XinJiang-沙雅县-19-18.json",
+        "XinJiang-沙雅县-20-9.json",
         "XinJiang-沙雅县-4-4.json"
       ],
       "strengthened_files": []
@@ -1420,6 +1424,10 @@
     {
       "time": "2026-08-12 23:49:53",
       "total_completed": 266
+    },
+    {
+      "time": "2026-08-12 23:51:14",
+      "total_completed": 268
     }
   ]
 }
