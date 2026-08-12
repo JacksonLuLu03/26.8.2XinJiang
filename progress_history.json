@@ -197,6 +197,8 @@
     "XinJiang-疏附县-10-12.json": "a585d6fe6c35be7213108599b7451000b1906e2c3d65f1743709fd43ea4089ea",
     "XinJiang-疏附县-10-35.json": "a85d77629df210c3c7ec7525cad67a8a6e2577e714e112cce3c7b3909a4b8e3c",
     "XinJiang-疏附县-10-36.json": "183e2cb64e0260ac038e55fe0565230584d4809c0d1c886f87f540a8fbe1d7c3",
+    "XinJiang-疏附县-10-37.json": "8a23febf2ec04b7e6167133872fefb46a7d832516471cae99b027fee200db051",
+    "XinJiang-疏附县-10-38.json": "eb61134ec3592aac54af16ada36ea93087fbec6ffd9ccc6fc85cb7e18f02b984",
     "XinJiang-疏附县-5-4.json": "5c2878703c6183eda88d4bdd0f203827d288e15b102a280069a40dc85864afee",
     "XinJiang-疏附县-5-5.json": "925ebe24cfb0abed358a8f64c66aa6d0a1b591e3fd57b35d7779f1816f846e75",
     "XinJiang-精河县-1-0.json": "1a1db3ccb931e1513a60a4e58c25fad30f0eb6abb3b20cc7222ff445b8253922",
@@ -681,7 +683,7 @@
       ]
     },
     "2026-08-12": {
-      "total_completed": 274,
+      "total_completed": 276,
       "new_files": [
         "XinJiang-沙雅县-16-2.json",
         "XinJiang-沙雅县-16-3.json",
@@ -694,6 +696,8 @@
         "XinJiang-疏附县-10-12.json",
         "XinJiang-疏附县-10-35.json",
         "XinJiang-疏附县-10-36.json",
+        "XinJiang-疏附县-10-37.json",
+        "XinJiang-疏附县-10-38.json",
         "XinJiang-疏附县-5-4.json",
         "XinJiang-疏附县-5-5.json"
       ],
@@ -1456,6 +1460,10 @@
     {
       "time": "2026-08-12 23:59:14",
       "total_completed": 274
+    },
+    {
+      "time": "2026-08-12 23:59:58",
+      "total_completed": 276
     }
   ]
 }
