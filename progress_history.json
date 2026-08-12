@@ -183,6 +183,7 @@
     "XinJiang-昌吉市-5-9.json": "a37e4503b58a19fc6e8494aedecff8bb688e64301af20e09f0ee3bf6a45b0ffe",
     "XinJiang-昌吉市-6-12.json": "0ee1c2d5a855745be660c045efd9322eee61a3ed5f4519532244e56ca54d9b2a",
     "XinJiang-昌吉市-6-15.json": "ce47eb82fbce09447900e12a90a48d78f085153d771dfc5ba093fb1a1bfdad60",
+    "XinJiang-沙雅县-16-2.json": "1aae51752076908c92a1020fc0063b781c5423d8bc39ac11974629a34a176da2",
     "XinJiang-沙雅县-2-4.json": "ca76df3ead9ea9a714157ad7f61f94bb1db87c09166e232a2b3f9bbe88ecd5a2",
     "XinJiang-沙雅县-2-5.json": "208c81a04946f556de8cd04813ea7e0a0ddc1e83f699a0a588a901e92fa35268",
     "XinJiang-沙雅县-4-3.json": "4c11ec29e2a66740a92c9077fef9743fa48b1fe9305ed4c21de0f18037093e4c",
@@ -669,8 +670,9 @@
       ]
     },
     "2026-08-12": {
-      "total_completed": 262,
+      "total_completed": 263,
       "new_files": [
+        "XinJiang-沙雅县-16-2.json",
         "XinJiang-沙雅县-4-4.json"
       ],
       "strengthened_files": []
@@ -1396,6 +1398,10 @@
     {
       "time": "2026-08-12 23:42:05",
       "total_completed": 262
+    },
+    {
+      "time": "2026-08-12 23:43:49",
+      "total_completed": 263
     }
   ]
 }
