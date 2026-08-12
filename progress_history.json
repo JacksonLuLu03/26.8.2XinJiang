@@ -195,7 +195,7 @@
     "XinJiang-沙雅县-4-4.json": "19db59c5d326b87115c88d092b8586866cfa1fb4f8424933186e1eafd5221935",
     "XinJiang-疏勒县-16-10.json": "e4a1ac494fb433e32bdd75f1126bea5eec6c5aef055db01d69c94bded2964d69",
     "XinJiang-疏勒县-16-11.json": "7b00fba72559c5b5407450b2499e2f6718e49f1080326eabccb7cf6e72feaa93",
-    "XinJiang-疏勒县-17-10.json": "50b15723f362a46d05eb2ed3b09a20f0d2c9f778f6032c472d6a1d3eee12af8e",
+    "XinJiang-疏勒县-17-10.json": "d4190d7332cdca5af8d3075107720cdc032671a4ac3a04a6edc034d448a75bbb",
     "XinJiang-疏附县-1-1.json": "9d3f20922b012dc9d626d0dd5eeba10eb736945c53529fd0880374789e518151",
     "XinJiang-疏附县-10-12.json": "a585d6fe6c35be7213108599b7451000b1906e2c3d65f1743709fd43ea4089ea",
     "XinJiang-疏附县-10-35.json": "a85d77629df210c3c7ec7525cad67a8a6e2577e714e112cce3c7b3909a4b8e3c",
@@ -244,6 +244,7 @@
     "XinJiang-轮台县-33-43.json": "dcbd5379a4e389b6e560bc6c2f73fb06a806275bd7e0588295ac10e668f92680",
     "XinJiang-轮台县-43-19.json": "eead1202942d53c09a12ac20c9bba2c4271052def38d0dfcb735c6042ad56a80",
     "XinJiang-轮台县-51-10.json": "efee66410919c97170892b230e186f3e2b23759b825ec63901d718034525be03",
+    "XinJiang-铁门关市-3-7.json": "ee9f0cd277218a248f468c019c02ae2b681799c7be931c91a2befad4a12d17d0",
     "XinJiang-阿克苏市-10-28.json": "a5196fa223d3a176b9b2329e1a0816620969ec32059306b6085684ff1309bfde",
     "XinJiang-阿克苏市-16-10.json": "be9608908ab9e9b59f1cf10aa31394a85efb8c94a91b36695f1ccfc07bdea8cc",
     "XinJiang-阿克苏市-21-10.json": "f3882df23bebfb22341ed603ee7cd7c3d77ab91c9af0656c853c9cca88e80c2d",
@@ -707,13 +708,16 @@
       "strengthened_files": []
     },
     "2026-08-13": {
-      "total_completed": 279,
+      "total_completed": 280,
       "new_files": [
         "XinJiang-疏勒县-16-10.json",
         "XinJiang-疏勒县-16-11.json",
-        "XinJiang-疏勒县-17-10.json"
+        "XinJiang-疏勒县-17-10.json",
+        "XinJiang-铁门关市-3-7.json"
       ],
-      "strengthened_files": []
+      "strengthened_files": [
+        "XinJiang-疏勒县-17-10.json"
+      ]
     }
   },
   "snapshots": [
@@ -1488,6 +1492,10 @@
     {
       "time": "2026-08-13 00:19:00",
       "total_completed": 279
+    },
+    {
+      "time": "2026-08-13 00:21:41",
+      "total_completed": 280
     }
   ]
 }
