@@ -186,6 +186,7 @@
     "XinJiang-沙雅县-2-4.json": "ca76df3ead9ea9a714157ad7f61f94bb1db87c09166e232a2b3f9bbe88ecd5a2",
     "XinJiang-沙雅县-2-5.json": "208c81a04946f556de8cd04813ea7e0a0ddc1e83f699a0a588a901e92fa35268",
     "XinJiang-沙雅县-4-3.json": "4c11ec29e2a66740a92c9077fef9743fa48b1fe9305ed4c21de0f18037093e4c",
+    "XinJiang-沙雅县-4-4.json": "19db59c5d326b87115c88d092b8586866cfa1fb4f8424933186e1eafd5221935",
     "XinJiang-精河县-1-0.json": "1a1db3ccb931e1513a60a4e58c25fad30f0eb6abb3b20cc7222ff445b8253922",
     "XinJiang-精河县-1-5.json": "d8ce8129f1cfc3a1157c3dae9f951c69f8e0347327aeb8e8216eb5fe3352bf01",
     "XinJiang-精河县-1-6.json": "3f3eacff2dd6f3ddb5c27d91f2106c500a04a02c1e3c9672551b4465c5709dce",
@@ -666,6 +667,13 @@
         "XinJiang-轮台县-29-30.json",
         "XinJiang-麦盖提县-25-5.json"
       ]
+    },
+    "2026-08-12": {
+      "total_completed": 262,
+      "new_files": [
+        "XinJiang-沙雅县-4-4.json"
+      ],
+      "strengthened_files": []
     }
   },
   "snapshots": [
@@ -1384,6 +1392,10 @@
     {
       "time": "2026-08-11 20:44:05",
       "total_completed": 261
+    },
+    {
+      "time": "2026-08-12 23:42:05",
+      "total_completed": 262
     }
   ]
 }
