@@ -196,7 +196,8 @@
     "XinJiang-疏勒县-16-10.json": "e4a1ac494fb433e32bdd75f1126bea5eec6c5aef055db01d69c94bded2964d69",
     "XinJiang-疏勒县-16-11.json": "7b00fba72559c5b5407450b2499e2f6718e49f1080326eabccb7cf6e72feaa93",
     "XinJiang-疏勒县-17-10.json": "d4190d7332cdca5af8d3075107720cdc032671a4ac3a04a6edc034d448a75bbb",
-    "XinJiang-疏勒县-17-12.json": "26969b76cd4b5a81fb561ccf6061281b05f6286cfa3da4fa992663816d7996ad",
+    "XinJiang-疏勒县-17-11.json": "e7d001e985a3471ea845cda5e93706bd6fd51fc4c71d46c5c7985d578c0a3db7",
+    "XinJiang-疏勒县-17-12.json": "e91198c9dbf6c903bb4f3ff9cdb71ec7cbee50556ad099a4c23715693667bd4f",
     "XinJiang-疏勒县-17-13.json": "e1ee6bc4ade961c2197907aed0a3401b03dedd800f32878590a0dfccb403e25f",
     "XinJiang-疏勒县-18-13.json": "430830762ca78acdd53d6750ae42b6de8edff9e0a73d360fb2fb3ac63cbc4185",
     "XinJiang-疏附县-1-1.json": "9d3f20922b012dc9d626d0dd5eeba10eb736945c53529fd0880374789e518151",
@@ -715,11 +716,12 @@
       "strengthened_files": []
     },
     "2026-08-13": {
-      "total_completed": 287,
+      "total_completed": 288,
       "new_files": [
         "XinJiang-疏勒县-16-10.json",
         "XinJiang-疏勒县-16-11.json",
         "XinJiang-疏勒县-17-10.json",
+        "XinJiang-疏勒县-17-11.json",
         "XinJiang-疏勒县-17-12.json",
         "XinJiang-疏勒县-17-13.json",
         "XinJiang-疏勒县-18-13.json",
@@ -731,6 +733,7 @@
       ],
       "strengthened_files": [
         "XinJiang-疏勒县-17-10.json",
+        "XinJiang-疏勒县-17-12.json",
         "XinJiang-疏勒县-17-13.json",
         "XinJiang-铁门关市-4-8.json"
       ]
@@ -1536,6 +1539,10 @@
     {
       "time": "2026-08-13 11:03:23",
       "total_completed": 287
+    },
+    {
+      "time": "2026-08-13 11:07:49",
+      "total_completed": 288
     }
   ]
 }
