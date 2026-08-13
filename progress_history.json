@@ -265,6 +265,7 @@
     "XinJiang-铁门关市-5-9.json": "bb919437a891c589b77467a0cba155402218907edca43426467665520b2d85f8",
     "XinJiang-铁门关市-6-2.json": "efce4ba288b810ecd9429b5d46bb6ac38fb3f3bf807b4995e487a82ac4722ece",
     "XinJiang-铁门关市-7-9.json": "d6b6868c0ed3687b213ed0bc27c4e3fdf0f8df068ed1c4b0af3391e1eacc58be",
+    "XinJiang-铁门关市-8-4.json": "379c0c4ec96a3c93b28e9eb500d7951b04223ca321c4ab23f4f08b0183603ce1",
     "XinJiang-阿克苏市-10-28.json": "a5196fa223d3a176b9b2329e1a0816620969ec32059306b6085684ff1309bfde",
     "XinJiang-阿克苏市-16-10.json": "be9608908ab9e9b59f1cf10aa31394a85efb8c94a91b36695f1ccfc07bdea8cc",
     "XinJiang-阿克苏市-21-10.json": "f3882df23bebfb22341ed603ee7cd7c3d77ab91c9af0656c853c9cca88e80c2d",
@@ -728,7 +729,7 @@
       "strengthened_files": []
     },
     "2026-08-13": {
-      "total_completed": 300,
+      "total_completed": 301,
       "new_files": [
         "XinJiang-和硕县-3-25.json",
         "XinJiang-和硕县-4-19.json",
@@ -753,7 +754,8 @@
         "XinJiang-铁门关市-5-8.json",
         "XinJiang-铁门关市-5-9.json",
         "XinJiang-铁门关市-6-2.json",
-        "XinJiang-铁门关市-7-9.json"
+        "XinJiang-铁门关市-7-9.json",
+        "XinJiang-铁门关市-8-4.json"
       ],
       "strengthened_files": [
         "XinJiang-疏勒县-17-10.json",
@@ -1617,6 +1619,10 @@
     {
       "time": "2026-08-13 11:29:42",
       "total_completed": 300
+    },
+    {
+      "time": "2026-08-13 11:32:42",
+      "total_completed": 301
     }
   ]
 }
