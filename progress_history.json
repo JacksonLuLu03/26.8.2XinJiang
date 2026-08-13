@@ -31,6 +31,7 @@
     "XinJiang-博湖县-7-5.json": "67ca5dddc8f8361abdc6a3edd6896609ddb537e1ee003ed2fc2d660b56aae69c",
     "XinJiang-博湖县-8-5.json": "d06ecc9cf0b09ea1d68c2197053d1a31020a44b89d0e14799192046010f3bf9f",
     "XinJiang-和硕县-3-22.json": "116dc43e6876ae59d369d2a18fb047ecfa04ad97830c88b87b3c71ab56403dc2",
+    "XinJiang-和硕县-3-25.json": "344a687450f7fb7769152997bd09c0bfa98a84e9d788cd3631d47b773c936c0f",
     "XinJiang-和硕县-4-19.json": "f5ef69528e572fb7d26b8dcdda02cf9693ccb8384e2dba98fba1759af7810fa8",
     "XinJiang-和硕县-5-14.json": "896cf9880896762f35c98a60a9a7989e8e027949837e3f432a259f8f82ab6e02",
     "XinJiang-和硕县-5-15.json": "1277db1921f7785754ba4b39375ec418459c63e89fe3a9625f56009f3f62a2e4",
@@ -721,8 +722,9 @@
       "strengthened_files": []
     },
     "2026-08-13": {
-      "total_completed": 293,
+      "total_completed": 294,
       "new_files": [
+        "XinJiang-和硕县-3-25.json",
         "XinJiang-和硕县-4-19.json",
         "XinJiang-和硕县-5-14.json",
         "XinJiang-和硕县-5-15.json",
@@ -1573,6 +1575,10 @@
     {
       "time": "2026-08-13 11:15:54",
       "total_completed": 293
+    },
+    {
+      "time": "2026-08-13 11:17:33",
+      "total_completed": 294
     }
   ]
 }
