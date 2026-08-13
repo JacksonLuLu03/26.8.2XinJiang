@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **286** | `[██████████████░░░░░░]` 71.0% |
-| **未标记 (Remaining)** | **117** | `[██████░░░░░░░░░░░░░░]` 29.0% |
+| **已标记 (Completed)** | **287** | `[██████████████░░░░░░]` 71.2% |
+| **未标记 (Remaining)** | **116** | `[██████░░░░░░░░░░░░░░]` 28.8% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-286%20%2F%20403%20(71.0%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-287%20%2F%20403%20(71.2%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,20 +25,20 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-13 10:59:41 (UTC+8)_
+_最后更新：2026-08-13 11:03:23 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-13</b> : 进度 286/403 (71.0%) | 新增 10 | 加强 2</summary>
+<summary><b>2026-08-13</b> : 进度 287/403 (71.2%) | 新增 11 | 加强 3</summary>
 
 **新增文件**
 
-`XinJiang-疏勒县-16-10`, `XinJiang-疏勒县-16-11`, `XinJiang-疏勒县-17-10`, `XinJiang-疏勒县-17-13`, `XinJiang-疏勒县-18-13`, `XinJiang-铁门关市-3-7`, `XinJiang-铁门关市-4-2`, `XinJiang-铁门关市-4-3`, `XinJiang-铁门关市-4-8`, `XinJiang-铁门关市-5-2`
+`XinJiang-疏勒县-16-10`, `XinJiang-疏勒县-16-11`, `XinJiang-疏勒县-17-10`, `XinJiang-疏勒县-17-12`, `XinJiang-疏勒县-17-13`, `XinJiang-疏勒县-18-13`, `XinJiang-铁门关市-3-7`, `XinJiang-铁门关市-4-2`, `XinJiang-铁门关市-4-3`, `XinJiang-铁门关市-4-8`, `XinJiang-铁门关市-5-2`
 
 **加强文件**
 
-`XinJiang-疏勒县-17-10`, `XinJiang-铁门关市-4-8`
+`XinJiang-疏勒县-17-10`, `XinJiang-疏勒县-17-13`, `XinJiang-铁门关市-4-8`
 
 </details>
 
