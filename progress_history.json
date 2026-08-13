@@ -32,6 +32,7 @@
     "XinJiang-博湖县-8-5.json": "d06ecc9cf0b09ea1d68c2197053d1a31020a44b89d0e14799192046010f3bf9f",
     "XinJiang-和硕县-3-22.json": "116dc43e6876ae59d369d2a18fb047ecfa04ad97830c88b87b3c71ab56403dc2",
     "XinJiang-和硕县-4-19.json": "f5ef69528e572fb7d26b8dcdda02cf9693ccb8384e2dba98fba1759af7810fa8",
+    "XinJiang-和硕县-5-14.json": "896cf9880896762f35c98a60a9a7989e8e027949837e3f432a259f8f82ab6e02",
     "XinJiang-和硕县-5-16.json": "dc29be572701ca7873f7f57f1e186cfbc6703e955e6c9d2245c8fe7ba50f6ef6",
     "XinJiang-和静县-10-20.json": "923b9af3d20bbcbc5cd6ef8eae2c1cedb94102adfb8d1153108dc2cce2cef4b3",
     "XinJiang-和静县-10-5.json": "3be7f49a8ec354b24031d3a5721166c6dec03b872115aa103ed11786779244b5",
@@ -717,9 +718,10 @@
       "strengthened_files": []
     },
     "2026-08-13": {
-      "total_completed": 289,
+      "total_completed": 290,
       "new_files": [
         "XinJiang-和硕县-4-19.json",
+        "XinJiang-和硕县-5-14.json",
         "XinJiang-疏勒县-16-10.json",
         "XinJiang-疏勒县-16-11.json",
         "XinJiang-疏勒县-17-10.json",
@@ -1549,6 +1551,10 @@
     {
       "time": "2026-08-13 11:08:31",
       "total_completed": 289
+    },
+    {
+      "time": "2026-08-13 11:09:31",
+      "total_completed": 290
     }
   ]
 }
