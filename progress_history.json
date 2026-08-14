@@ -64,6 +64,7 @@
     "XinJiang-喀什市-2-9.json": "2b1c093f4d52c8c35f4a21c2f6c7d0349d8bb4c368fe264925c839c8330268fb",
     "XinJiang-喀什市-7-6.json": "35c9cf1b202d8ead0265002e2064cdf4b27279b400a7b5ae4626784aa38decf4",
     "XinJiang-图木舒克市-1-24.json": "f7a220725042c93572b205ab779aa4e30c2eb8085208e9cfc3a82af3f6fb92f2",
+    "XinJiang-图木舒克市-1-25.json": "847812ecf068a9e38dc5f67e55d4a24fd5ba1f26e97c27bbdb4ecf8b19dd33b5",
     "XinJiang-奎屯市-10-10.json": "ecf780972d63b8b9678fb8f9770fb5c7dd841f8e3cd71a981165cdaf46c2797b",
     "XinJiang-奎屯市-10-9.json": "5f33c849c697f8f3ac478b9ead660db2eb00e9bc41f96fd34d51d6d5c61ba3fb",
     "XinJiang-奎屯市-11-10.json": "7ea7230c56c544e78ee3675658428236a842b2aa719b860a05a157322c666ad3",
@@ -778,6 +779,13 @@
         "XinJiang-铁门关市-5-8.json",
         "XinJiang-铁门关市-5-9.json"
       ]
+    },
+    "2026-08-14": {
+      "total_completed": 308,
+      "new_files": [
+        "XinJiang-图木舒克市-1-25.json"
+      ],
+      "strengthened_files": []
     }
   },
   "snapshots": [
@@ -1660,6 +1668,10 @@
     {
       "time": "2026-08-13 11:53:07",
       "total_completed": 307
+    },
+    {
+      "time": "2026-08-14 12:24:21",
+      "total_completed": 308
     }
   ]
 }
