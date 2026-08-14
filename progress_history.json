@@ -69,6 +69,7 @@
     "XinJiang-图木舒克市-1-27.json": "2c6d9eecc92d5025bdbfd9bc7320178833fc022d061570fc952aa9a3a2ed5ed5",
     "XinJiang-图木舒克市-3-20.json": "770c2d3044f1fbb635e7fdedfeea447bb16bbb3dc65e873795c5e3cc7c11e5ff",
     "XinJiang-图木舒克市-3-21.json": "660713326112ff7147444e25c2d89892808a07b83ea22fd8ac921bbb9ebc91c4",
+    "XinJiang-图木舒克市-5-27.json": "6573661ffa5692b34087d38300d3062e3ffaa44bad2faffb3c2600b59bc1aee2",
     "XinJiang-奎屯市-10-10.json": "ecf780972d63b8b9678fb8f9770fb5c7dd841f8e3cd71a981165cdaf46c2797b",
     "XinJiang-奎屯市-10-9.json": "5f33c849c697f8f3ac478b9ead660db2eb00e9bc41f96fd34d51d6d5c61ba3fb",
     "XinJiang-奎屯市-11-10.json": "7ea7230c56c544e78ee3675658428236a842b2aa719b860a05a157322c666ad3",
@@ -785,13 +786,14 @@
       ]
     },
     "2026-08-14": {
-      "total_completed": 312,
+      "total_completed": 313,
       "new_files": [
         "XinJiang-图木舒克市-1-25.json",
         "XinJiang-图木舒克市-1-26.json",
         "XinJiang-图木舒克市-1-27.json",
         "XinJiang-图木舒克市-3-20.json",
-        "XinJiang-图木舒克市-3-21.json"
+        "XinJiang-图木舒克市-3-21.json",
+        "XinJiang-图木舒克市-5-27.json"
       ],
       "strengthened_files": []
     }
@@ -1696,6 +1698,10 @@
     {
       "time": "2026-08-14 12:35:31",
       "total_completed": 312
+    },
+    {
+      "time": "2026-08-14 12:38:33",
+      "total_completed": 313
     }
   ]
 }
