@@ -8,11 +8,11 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **403** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **330** | `[████████████████░░░░]` 81.9% |
-| **未标记 (Remaining)** | **73** | `[████░░░░░░░░░░░░░░░░]` 18.1% |
+| **已标记 (Completed)** | **332** | `[████████████████░░░░]` 82.4% |
+| **未标记 (Remaining)** | **71** | `[████░░░░░░░░░░░░░░░░]` 17.6% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-330%20%2F%20403%20(81.9%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-332%20%2F%20403%20(82.4%25)-blue?style=for-the-badge&logo=github)
 
 ### 标注进度趋势折线图
 ![标注进度趋势](progress_chart.svg)
@@ -25,16 +25,16 @@
 - `watch_labelme_and_push.ps1`：运行时每 20 秒监听一次 JSON 变化，自动同步并推送。
 
 ---
-_最后更新：2026-08-14 15:29:10 (UTC+8)_
+_最后更新：2026-08-14 15:32:29 (UTC+8)_
 
 ### 每日标注聚合日志
 
 <details open>
-<summary><b>2026-08-14</b> : 进度 330/403 (81.9%) | 新增 23 | 加强 1</summary>
+<summary><b>2026-08-14</b> : 进度 332/403 (82.4%) | 新增 25 | 加强 1</summary>
 
 **新增文件**
 
-`XinJiang-图木舒克市-1-25`, `XinJiang-图木舒克市-1-26`, `XinJiang-图木舒克市-1-27`, `XinJiang-图木舒克市-11-5`, `XinJiang-图木舒克市-11-6`, `XinJiang-图木舒克市-12-3`, `XinJiang-图木舒克市-12-4`, `XinJiang-图木舒克市-12-5`, `XinJiang-图木舒克市-12-6`, `XinJiang-图木舒克市-3-20`, `XinJiang-图木舒克市-3-21`, `XinJiang-图木舒克市-5-27`, `XinJiang-图木舒克市-7-27`, `XinJiang-图木舒克市-8-24`, `XinJiang-托克逊县-26-28`, `XinJiang-托克逊县-26-29`, `XinJiang-托克逊县-36-22`, `XinJiang-托克逊县-48-18`, `XinJiang-托克逊县-48-19`, `XinJiang-托克逊县-48-20`, `XinJiang-托克逊县-50-22`, `XinJiang-托克逊县-50-23`, `XinJiang-托克逊县-52-18`
+`XinJiang-图木舒克市-1-25`, `XinJiang-图木舒克市-1-26`, `XinJiang-图木舒克市-1-27`, `XinJiang-图木舒克市-11-5`, `XinJiang-图木舒克市-11-6`, `XinJiang-图木舒克市-12-3`, `XinJiang-图木舒克市-12-4`, `XinJiang-图木舒克市-12-5`, `XinJiang-图木舒克市-12-6`, `XinJiang-图木舒克市-3-20`, `XinJiang-图木舒克市-3-21`, `XinJiang-图木舒克市-5-27`, `XinJiang-图木舒克市-7-27`, `XinJiang-图木舒克市-8-24`, `XinJiang-托克逊县-26-28`, `XinJiang-托克逊县-26-29`, `XinJiang-托克逊县-36-22`, `XinJiang-托克逊县-48-18`, `XinJiang-托克逊县-48-19`, `XinJiang-托克逊县-48-20`, `XinJiang-托克逊县-50-22`, `XinJiang-托克逊县-50-23`, `XinJiang-托克逊县-52-18`, `XinJiang-托克逊县-52-20`, `XinJiang-托克逊县-52-21`
 
 **加强文件**
 
