@@ -71,6 +71,8 @@
     "XinJiang-图木舒克市-11-6.json": "9199caad05c5d1d1427c98cb36fcd9e5c37b0abdf8e783fa6ed7ded2a963bb0d",
     "XinJiang-图木舒克市-12-3.json": "a5745bd9338a078637a6b192bd6ba0be5f659f1d5b0f8db36df295a461b09816",
     "XinJiang-图木舒克市-12-4.json": "c3d9e6bba0dd7b0487b262a608a0eb380aa0ba02e662968f924d0af4e972d585",
+    "XinJiang-图木舒克市-12-5.json": "77a58927194fdf62a18c9776bb0abbeac11a90ffed5659f63ead45a1dc97b8d6",
+    "XinJiang-图木舒克市-12-6.json": "ba3e90289d00def020c7d54b025d1e28f54aa9998209b99e4c2122a15260e7dd",
     "XinJiang-图木舒克市-3-20.json": "770c2d3044f1fbb635e7fdedfeea447bb16bbb3dc65e873795c5e3cc7c11e5ff",
     "XinJiang-图木舒克市-3-21.json": "660713326112ff7147444e25c2d89892808a07b83ea22fd8ac921bbb9ebc91c4",
     "XinJiang-图木舒克市-5-27.json": "6573661ffa5692b34087d38300d3062e3ffaa44bad2faffb3c2600b59bc1aee2",
@@ -172,6 +174,15 @@
     "XinJiang-库车县-44-16.json": "81b6a7034540179aa35aeb66fe3ba948be413aea7ea2354ad5ac88df1abcdef4",
     "XinJiang-库车县-57-36.json": "fd3ea0e08ae73552b81961ba5abb66d323364ff55b08204df5c17d2ebd8769af",
     "XinJiang-库车县-9-44.json": "366bf36fa8fd0e59030a92feee6aec68475b5354a8cf129a0d7dd0c339b203fb",
+    "XinJiang-托克逊县-26-28.json": "a0709545ec59d09444d987ce02f491a1adf14d7d4f94908996a85c4f4cd151df",
+    "XinJiang-托克逊县-26-29.json": "8e5bfb319c54906248cfe5ecd97f190166c57e21829c1f16a7ea15a73fad2db5",
+    "XinJiang-托克逊县-36-22.json": "6ce72ab66d581d9c59eff5d9262f44717ad32ea4e5165918288126f2ffb68050",
+    "XinJiang-托克逊县-48-18.json": "ba05b36c03b1c9b5171bb25d6a31599f44f875aa0e9d0d15e0dbbe25179a5f7c",
+    "XinJiang-托克逊县-48-19.json": "67a0794e7caef32df8cf4f367dedb7c180a58d6ccc936d2e691330a9bfda3fe1",
+    "XinJiang-托克逊县-48-20.json": "fa7f0f5f5928228adf68be1856735840fd11b6b34ba7ee32111e6e044b3fe7aa",
+    "XinJiang-托克逊县-50-22.json": "2c113369d78b96b5dc091e17803e4c33871f42fdfd013932d23bb3e1b4a96482",
+    "XinJiang-托克逊县-50-23.json": "d804d1aa9a3369a0aad1303bdfd1dcac99478329a1725004ac7e32d539fceb7b",
+    "XinJiang-托克逊县-52-18.json": "5eee146216a0bc9ef1a5704b9897c8487b176c1439a3e6194901ca1333f9fea6",
     "XinJiang-拜城县-15-13.json": "26b6243d4d1d37939fafa76154eb3823115dffa846fa0983e62bac065f740c15",
     "XinJiang-拜城县-26-34.json": "68a7c55f6b3a6e6f4a086f20f2cf8346be4f3739649cae93f34064af64eae823",
     "XinJiang-拜城县-26-35.json": "fbe9a8668432fd85e18520220b973231f489054d58385d46381be1c95547a52a",
@@ -792,7 +803,7 @@
       ]
     },
     "2026-08-14": {
-      "total_completed": 319,
+      "total_completed": 330,
       "new_files": [
         "XinJiang-图木舒克市-1-25.json",
         "XinJiang-图木舒克市-1-26.json",
@@ -801,11 +812,22 @@
         "XinJiang-图木舒克市-11-6.json",
         "XinJiang-图木舒克市-12-3.json",
         "XinJiang-图木舒克市-12-4.json",
+        "XinJiang-图木舒克市-12-5.json",
+        "XinJiang-图木舒克市-12-6.json",
         "XinJiang-图木舒克市-3-20.json",
         "XinJiang-图木舒克市-3-21.json",
         "XinJiang-图木舒克市-5-27.json",
         "XinJiang-图木舒克市-7-27.json",
-        "XinJiang-图木舒克市-8-24.json"
+        "XinJiang-图木舒克市-8-24.json",
+        "XinJiang-托克逊县-26-28.json",
+        "XinJiang-托克逊县-26-29.json",
+        "XinJiang-托克逊县-36-22.json",
+        "XinJiang-托克逊县-48-18.json",
+        "XinJiang-托克逊县-48-19.json",
+        "XinJiang-托克逊县-48-20.json",
+        "XinJiang-托克逊县-50-22.json",
+        "XinJiang-托克逊县-50-23.json",
+        "XinJiang-托克逊县-52-18.json"
       ],
       "strengthened_files": [
         "XinJiang-图木舒克市-8-24.json"
@@ -1740,6 +1762,50 @@
     {
       "time": "2026-08-14 12:53:27",
       "total_completed": 319
+    },
+    {
+      "time": "2026-08-14 15:14:15",
+      "total_completed": 320
+    },
+    {
+      "time": "2026-08-14 15:15:28",
+      "total_completed": 321
+    },
+    {
+      "time": "2026-08-14 15:19:38",
+      "total_completed": 322
+    },
+    {
+      "time": "2026-08-14 15:21:26",
+      "total_completed": 323
+    },
+    {
+      "time": "2026-08-14 15:22:03",
+      "total_completed": 324
+    },
+    {
+      "time": "2026-08-14 15:22:38",
+      "total_completed": 325
+    },
+    {
+      "time": "2026-08-14 15:23:13",
+      "total_completed": 326
+    },
+    {
+      "time": "2026-08-14 15:24:25",
+      "total_completed": 327
+    },
+    {
+      "time": "2026-08-14 15:25:01",
+      "total_completed": 328
+    },
+    {
+      "time": "2026-08-14 15:26:14",
+      "total_completed": 329
+    },
+    {
+      "time": "2026-08-14 15:26:49",
+      "total_completed": 330
     }
   ]
 }
