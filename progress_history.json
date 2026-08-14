@@ -185,6 +185,7 @@
     "XinJiang-托克逊县-52-18.json": "5eee146216a0bc9ef1a5704b9897c8487b176c1439a3e6194901ca1333f9fea6",
     "XinJiang-托克逊县-52-20.json": "8200878754dc9998c095cf24037993112078c4661e3ebd0f450ce34bac88c940",
     "XinJiang-托克逊县-52-21.json": "ef1e9409b2fa7a7f58f59aa6453033f99efab53bf366b08e71fccae3dbffdd2f",
+    "XinJiang-托克逊县-52-25.json": "0924b08a39518284be6e59e036a807fc59bc7e812537cd709a49afd77940b3f6",
     "XinJiang-拜城县-15-13.json": "26b6243d4d1d37939fafa76154eb3823115dffa846fa0983e62bac065f740c15",
     "XinJiang-拜城县-26-34.json": "68a7c55f6b3a6e6f4a086f20f2cf8346be4f3739649cae93f34064af64eae823",
     "XinJiang-拜城县-26-35.json": "fbe9a8668432fd85e18520220b973231f489054d58385d46381be1c95547a52a",
@@ -805,7 +806,7 @@
       ]
     },
     "2026-08-14": {
-      "total_completed": 332,
+      "total_completed": 333,
       "new_files": [
         "XinJiang-图木舒克市-1-25.json",
         "XinJiang-图木舒克市-1-26.json",
@@ -831,7 +832,8 @@
         "XinJiang-托克逊县-50-23.json",
         "XinJiang-托克逊县-52-18.json",
         "XinJiang-托克逊县-52-20.json",
-        "XinJiang-托克逊县-52-21.json"
+        "XinJiang-托克逊县-52-21.json",
+        "XinJiang-托克逊县-52-25.json"
       ],
       "strengthened_files": [
         "XinJiang-图木舒克市-8-24.json"
@@ -1814,6 +1816,10 @@
     {
       "time": "2026-08-14 15:32:29",
       "total_completed": 332
+    },
+    {
+      "time": "2026-08-14 15:33:34",
+      "total_completed": 333
     }
   ]
 }
